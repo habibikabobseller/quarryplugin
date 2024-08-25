@@ -1,0 +1,984 @@
+# ╔═════════════════════╗
+# ║  MESSAGGI GENERALI  ║
+# ╚═════════════════════╝
+
+You dont have the permission: '&cNon hai i permessi necessari!'
+You are not the player: '&cNon sei un giocatore!'
+Player isnt exists: '&cIl giocatore è offline!'
+Plugin reloaded: '&aQuarry ricaricato!'
+Havent enough money: '&cNon hai abbastanza soldi!'
+Buying coins message: '&fHai comprato gettoni per un valore di &e&l%price%&6&l$&r!'
+Limit of placed quarries: '&cHai raggiunto il numero massimo di cave piazzate!'
+
+Quarry created: '&a&lCAVA CREATA!'
+Quarry placed: '&e&lCAVA STABILITA!'
+Quarry removed: '&c&lCAVA RIMOSSA!'
+Quarry received: '&a&lTI È STATA DATO UNA CAVA!'
+Quarry gave: '&e&lHAI DATO UNA CAVA A UN GIOCATORE!'
+Quarry already opened: '&cLa cava è già aperta da un altro giocatore'
+Quarry filling: '&aHai riempito la cava!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[NON PUÒ ESSERE ACQUISTATO]'
+
+
+# ╔═════════════════════╗
+# ║  NEGOZIO & SCAMBIO  ║
+# ╚═════════════════════╝
+
+Quarry shop title: '             &2⛃ &lNEGOZIO&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lSCAMBIATORE&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Scambia risorse per valuta!'
+Quarry exchanger title: '          &5❂ &lSCAMBIATORE&r &5❂'
+Quarry exchanger balance title: '&f&lSALDO&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fNuovo oggetto aggiunto allo scambiatore!'
+Quarry exchanger item removed: '&fOggetto rimosso dallo scambiatore!'
+Quarry exchanger item lore:
+  - '&7Prezzo: &e%price% &6⛃'
+
+
+# ╔═════════════════════╗
+# ║  PULSANTI GENERALI  ║
+# ╚═════════════════════╝
+
+Quarry fuel title: '&e☢ &lCARBURANTE&r &e☢'
+Quarry fuel lore:
+  - '&7Il carburante è necessario per far funzionare la cava!'
+  - '&a✔ &7Rimasto: %fuel%'
+  - '&7Se il carburante si esaurisce, la macchina si fermerà!'
+  - '&7Clicca &c4 Carboni &7per rifornire!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lSPEGNI MOTORE'
+Quarry start title disabled: '&e&lACCENDI MOTORE'
+Quarry start lore:
+  - '&7Avvia, spegne il motore!'
+  - '&7Consuma carburante quando è acceso!'
+
+Quarry storage gui title: '             &b&lMAGAZZINO'
+Quarry storage title: '&b&lMAGAZZINO'
+Quarry storage lore:
+  - '&7Qui puoi ritirare le risorse estratte!'
+  - '&7Se tenti di rompere una cava senza'
+  - '&7aver preso le risorse, esse cadranno!'
+
+Quarry owner title open: '&e&lAPERTO'
+Quarry owner title closed: '&c&lCHIUSO'
+Quarry owner lore:
+  - '&7Proprietario: &e%player%'
+  - '&7Clicca per permettere ad altri giocatori di aprire la cava.'
+  - '&7Oppure per non permettere di aprirla!'
+
+Quarry speed gui title: '             &a➠ &a&lVELOCITÀ&r &a➠'
+Quarry radius gui title: '            &b۞ &lRAGGIO&r &b۞'
+Quarry luck gui title: '              &6✪ &lFORTUNA&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBONUS&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lTOCCO DI VELLUTO&r &e✦'
+
+
+# ╔════════════════════╗
+# ║  CAVA DI MINERALI  ║
+# ╚════════════════════╝
+
+Ore quarry title: '&c⛏ &c&lCAVA DI MINERALI&r &c⛏'
+Ore quarry lore:
+  - '&8Estrae minerali in un certo raggio.'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+  - '&6+ &6&lFORTUNA'
+  - '&d+ &d&lBONUS'
+  - '&e+ &e&lTOCCO DI VELLUTO'
+Ore quarry shop lore:
+  - '&8Estrae minerali in un certo raggio.'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+  - '&6+ &6&lFORTUNA'
+  - '&d+ &d&lBONUS'
+  - '&e+ &e&lTOCCO DI VELLUTO'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lCAVA DI MINERALI&r &c⛏'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Ore quarry status activated: '&a&l[ATTIVATO]'
+Ore quarry status disabled: '&c&l[DISATTIVATO]'
+
+Ore quarry inventory title: '         &4⛏ &4&lCAVA DI MINERALI&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di estrazione delle risorse!'
+  - '&a▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influiscono sul consumo di carburante!'
+
+Ore quarry radius button title: '&b۞ &lRAGGIO&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Aumenta il raggio di estrazione delle risorse!'
+  - '&b▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&b▪ &7I miglioramenti non influiscono sulla velocità!'
+
+Ore quarry luck button title: '&6✪ &lFORTUNA&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Aumenta la fortuna nell''estrazione di certi minerali!'
+  - '&6▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&6▪ &7I miglioramenti non influiscono sulla velocità!'
+
+Ore quarry bonuses button title: '&d⛃ &lBONUS&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Ti permette di ottenere cristalli rari tra i minerali con una certa probabilità!'
+  - '&d▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&d▪ &7I miglioramenti non influiscono sul consumo di carburante!'
+
+Ore quarry silktouch button title: '&e✦ &lTOCCO DI VELLUTO&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Ti permette di estrarre carbone, minerale di diamante, ecc!'
+  - '&e▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&e▪ &7La modalità abilitata disabilita bonus e fortuna!'
+  - '&ePuò essere disabilitato!'
+Ore quarry silktouch button value activated: '&a&l[ATTIVATO]'
+Ore quarry silktouch button value disabled: '&c&l[DISATTIVATO]'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Ore quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Aumenta la velocità di estrazione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Aumenta la velocità di estrazione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Aumenta la velocità di estrazione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Aumenta la velocità di estrazione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lFULMINEO&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Aumenta la velocità di estrazione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lAMPIO&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Aumenta il raggio di estrazione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lSPAZIOSO&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Aumenta il raggio di estrazione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lVASTO&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Aumenta il raggio di estrazione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lIMMENSO&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Aumenta il raggio di estrazione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lIRRAGGIUNGIBILE&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Aumenta il raggio di estrazione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lVANTAGGIOSO&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Aumenta la fortuna di estrazione della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lDESIDERATO&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Aumenta la fortuna di estrazione della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lFORTUNATO&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Aumenta la fortuna di estrazione della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lPROLIFICO&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Aumenta la fortuna di estrazione della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lDESTINATO&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Aumenta la fortuna di estrazione della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Dà la possibilità di ottenere risorse aggiuntive durante lo scavo.'
+  - '&7Se acquisti un bonus maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] SMERALDO'
+  - '&6&l[&r&f✕2&6&l] PEPITA D''ORO'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Dà la possibilità di ottenere risorse aggiuntive durante lo scavo.'
+  - '&7Se acquisti un bonus maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] SMERALDO'
+  - '&6&l[&r&f✕3&6&l] PEPITA D''ORO'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lULTIMO'
+Ore quarry bonuses item 3 lore:
+  - '&7Dà la possibilità di ottenere risorse aggiuntive durante lo scavo.'
+  - '&7Se acquisti un bonus maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] SMERALDO'
+  - '&6&l[&r&f✕5&6&l] PEPITA D''ORO'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lTOCCO DI VELLUTO'
+Ore quarry silktouch item 1 lore:
+  - '&7Ti permette di estrarre minerali senza distruggere i cristalli.'
+  - '&7Puoi attivare e disattivare la modalità nel menu principale!'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25000 &6⛃'
+
+
+# ╔═════════════════╗
+# ║  CAVA DI LEGNO  ║
+# ╚═════════════════╝
+
+Wood quarry title: '&e♣ &e&lCAVA DI LEGNO&r &e♣'
+Wood quarry lore:
+  - '&8Taglia alberi entro un certo raggio.'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+Wood quarry shop lore:
+  - '&8Taglia alberi entro un certo raggio.'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lCAVA DI LEGNO&r &e♣'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Wood quarry status activated: '&a&l[ATTIVATO]'
+Wood quarry status disabled: '&c&l[DISATTIVATO]'
+
+Wood quarry inventory title: '         &4♣ &4&lCAVA DI LEGNO&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di taglio della cava!'
+  - '&a▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+Wood quarry radius button title: '&b۞ &lRAGGIO&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Aumenta il raggio di taglio della cava!'
+  - '&b▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&b▪ &7I miglioramenti non influenzano la velocità!'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Wood quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Aumenta la velocità di taglio della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Aumenta la velocità di taglio della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Aumenta la velocità di taglio della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Aumenta la velocità di taglio della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lFULMINEO&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Aumenta la velocità di taglio della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lAMPIO&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Aumenta il raggio di taglio della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lSPAZIOSO&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Aumenta il raggio di taglio della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lVASTO&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Aumenta il raggio di taglio della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lIMMENSO&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Aumenta il raggio di taglio della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lIRRAGGIUNGIBILE&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Aumenta il raggio di taglio della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+
+
+# ╔═════════════════╗
+# ║  CAVA DI PESCE  ║
+# ╚═════════════════╝
+
+Fish quarry title: '&b☄ &b&lCAVA DI PESCE&r &b☄'
+Fish quarry lore:
+  - '&8Cattura pesci e oggetti dalle profondità.'
+  - '&8Per funzionare, è necessaria una vasca'
+  - ' &b3 x 3 di acqua &8e la cava in alto al centro!'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lFORTUNA'
+  - '&d+ &d&lBONUS'
+Fish quarry shop lore:
+  - '&8Cattura pesci e oggetti dalle profondità.'
+  - '&8Consuma carburante mentre è in funzione.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lFORTUNA'
+  - '&d+ &d&lBONUS'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lCAVA DI PESCE&r &b☄'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Fish quarry status activated: '&a&l[ATTIVATO]'
+Fish quarry status disabled: '&c&l[DISATTIVATO]'
+
+Fish quarry inventory title: '         &4☄ &4&lCAVA DI PESCE&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di pesca!'
+  - '&a▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+Fish quarry luck button title: '&6✪ &lFORTUNA&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Aumenta la probabilità di catturare un oggetto!'
+  - '&6▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&6▪ &7I miglioramenti non influenzano la velocità!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUS&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Permette di pescare oggetti rari dalle profondità!'
+  - '&d▪ &7Puoi acquistare miglioramenti cliccando sull''icona!'
+  - '&d▪ &7I miglioramenti non influenzano il consumo di carburante!'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Fish quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Aumenta la velocità di scavo della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Aumenta la velocità di scavo della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Aumenta la velocità di scavo della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Aumenta la velocità di scavo della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lFULMINEO&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Aumenta la velocità di scavo della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lVANTAGGIOSO&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Aumenta la fortuna di scavo della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lDESIDERATO&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Aumenta la fortuna di scavo della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lFORTUNATO&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Aumenta la fortuna di scavo della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lPROLIFICO&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Aumenta la fortuna di scavo della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lDECRETATO DAL DESTINO&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Aumenta la fortuna di scavo della cava.'
+  - '&7Se acquisti una fortuna maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Fish quarry bonuses item 1 lore:
+  - '&7Aggiunge una probabilità di ottenere oggetti di valore durante la pesca.'
+  - '&7Se acquisti bonus maggiori, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] SMERALDO'
+  - '&6&l[&r&f✕2&6&l] NUGGET D''ORO'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Aggiunge una probabilità di ottenere oggetti di valore durante la pesca.'
+  - '&7Se acquisti bonus maggiori, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] SMERALDO'
+  - '&6&l[&r&f✕3&6&l] NUGGET D''ORO'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lULTIMO'
+Fish quarry bonuses item 3 lore:
+  - '&7Aggiunge una probabilità di ottenere oggetti di valore durante la pesca.'
+  - '&7Se acquisti bonus maggiori, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] SMERALDO'
+  - '&6&l[&r&f✕5&6&l] NUGGET D''ORO'
+  - '%price tag%'
+
+
+# ╔════════════════╗
+# ║  CAVA DEI MOB  ║
+# ╚════════════════╝
+
+Mob quarry title: '&4➹ &4&lCAVA DEI MOB&r &4➹'
+Mob quarry lore:
+  - '&8Uccide creature e raccoglie bottino ed esperienza.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lRAGGIO'
+  - '&d+ &d&lEXP'
+Mob quarry shop lore:
+  - '&8Uccide creature e raccoglie bottino ed esperienza.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lRAGGIO'
+  - '&d+ &d&lEXP'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lCAVA DEI MOB&r &4➹'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Mob quarry status activated: '&a&l[ATTIVATA]'
+Mob quarry status disabled: '&c&l[DISATTIVATA]'
+
+Mob quarry inventory title: '         &4➹ &4&lCAVA DEI MOB&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di uccisione delle creature!'
+  - '&a▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+Mob quarry radius button title: '&b۞ &lRAGGIO&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Aumenta il raggio di uccisione delle creature!'
+  - '&b▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&b▪ &7I miglioramenti non influenzano la velocità!'
+
+Mob quarry exp button title: '&d✦ &lEXP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7Quando uccidi creature, accumuli esperienza!'
+  - '&d▪ &7Puoi raccoglierla cliccando sull''icona!'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Mob quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Aumenta la velocità di uccisione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Aumenta la velocità di uccisione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Aumenta la velocità di uccisione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Aumenta la velocità di uccisione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lFULMINEO&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Aumenta la velocità di uccisione della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lAMPIO&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Aumenta il raggio di uccisione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lSPAZIOSO&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Aumenta il raggio di uccisione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lSCALA-LARGA&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Aumenta il raggio di uccisione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lIMMENSO&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Aumenta il raggio di uccisione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lIRRAGGIUNGIBILE&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Aumenta il raggio di uccisione della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+
+
+# ╔═════════════════╗
+# ║  CAVA AGRICOLA  ║
+# ╚═════════════════╝
+
+Farm quarry title: '&a☀ &a&lCAVA AGRICOLA&r &a☀'
+Farm quarry lore:
+  - '&8Raccolta e piantagione di piante.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lRAGGIO'
+  - '&2+ &2&lFERTILIZZANTE'
+  - '&3+ &3&lUMIDITÀ'
+Farm quarry shop lore:
+  - '&8Raccolta e piantagione di piante.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6+ &6&lRAGGIO'
+  - '&2+ &2&lFERTILIZZANTE'
+  - '&3+ &3&lUMIDITÀ'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lCAVA AGRICOLA&r &a☀'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Farm quarry status activated: '&a&l[ATTIVATA]'
+Farm quarry status disabled: '&c&l[DISATTIVATA]'
+
+Farm quarry inventory title: '         &4☀ &4&lCAVA AGRICOLA&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di raccolta e fertilizzazione delle colture!'
+  - '&a▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+Farm quarry radius button title: '&b۞ &lRAGGIO&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Aumenta il raggio di raccolta e fertilizzazione delle colture!'
+  - '&b▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&b▪ &7I miglioramenti non influenzano la velocità!'
+
+Farm quarry fertilizer button title: '&2❀ &lFERTILIZZANTE&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7Se c''è fertilizzante - dà una possibilità di fertilizzare la pianta!'
+  - '&2▪ &7Il fertilizzante aumenta il tasso di crescita della pianta!'
+  - '&2▪ &7Il fertilizzante non è richiesto!'
+  - '&a✔ &7Rimanenti: %fertilizer%'
+  - '&2▪ &7Clicca con la &f1 Farina d''Ossa &7per rifornire!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lUMIDITÀ&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7Se c''è umidità - dà una possibilità di innaffiare la pianta!'
+  - '&b▪ &7L''acqua aumenta il tasso di crescita della pianta.'
+  - '&b▪ &7L''acqua non è richiesta!'
+  - '&a✔ &7Rimanenti: %humidity%'
+  - '&b▪ &7Clicca con il &b1 Secchio d''Acqua &7per rifornire!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Farm quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Aumenta la velocità di raccolta della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Aumenta la velocità di raccolta della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Aumenta la velocità di raccolta della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Aumenta la velocità di raccolta della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lFULMINEO&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Aumenta la velocità di raccolta della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lAMPIO&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Aumenta il raggio di raccolta della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lSPAZIOSO&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Aumenta il raggio di raccolta della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lSCALA-LARGA&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Aumenta il raggio di raccolta della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lIMMENSO&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Aumenta il raggio di raccolta della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lIRRAGGIUNGIBILE&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Aumenta il raggio di raccolta della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+
+
+# ╔══════════════════╗
+# ║  CAVA DI PIETRA  ║
+# ╚══════════════════╝
+
+Stone quarry title: '&7■ &7&lCAVA DI PIETRA&r &7■'
+Stone quarry lore:
+  - '&8Scava 1 blocco sotto di esso.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+Stone quarry shop lore:
+  - '&8Scava 1 blocco sotto di esso.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lCAVA DI PIETRA&r &7■'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Stone quarry status activated: '&a&l[ATTIVATA]'
+Stone quarry status disabled: '&c&l[DISATTIVATA]'
+
+Stone quarry inventory title: '        &4■ &4&lCAVA DI PIETRA&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di estrazione del ciottolo!'
+  - '&a▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Stone quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Aumenta la velocità di schianto della cava.'
+  - '&7Se acquisti una velocità superiore,'
+  - '&7non potrai sceglierne una inferiore.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Aumenta la velocità di schianto della cava.'
+  - '&7Se acquisti una velocità superiore,'
+  - '&7non potrai sceglierne una inferiore.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Aumenta la velocità di schianto della cava.'
+  - '&7Se acquisti una velocità superiore,'
+  - '&7non potrai sceglierne una inferiore.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Aumenta la velocità di schianto della cava.'
+  - '&7Se acquisti una velocità superiore,'
+  - '&7non potrai sceglierne una inferiore.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Aumenta la velocità di schianto della cava.'
+  - '&7Se acquisti una velocità superiore,'
+  - '&7non potrai sceglierne una inferiore.'
+  - '%price tag%'
+
+
+# ╔════════════════════╗
+# ║  CAVA DI TOSATURA  ║
+# ╚════════════════════╝
+
+Wool quarry title: '&d❦ &d&lCAVA DI TOSATURA&r &d❦'
+Wool quarry lore:
+  - '&8Tosatura delle pecore circostanti.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+Wool quarry shop lore:
+  - '&8Tosatura delle pecore circostanti.'
+  - '&8Consuma carburante durante il funzionamento.'
+  - '&e☻ &f&lMIGLIORAMENTI:'
+  - '&a+ &a&lVELOCITÀ'
+  - '&b+ &b&lRAGGIO'
+  - '&6&l[&f&lCLICCA PER ACQUISTARE&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lCAVA DI TOSATURA&r &d❦'
+  - '&fProprietario: &a%player%'
+  - '&fStato: &a%status%'
+Wool quarry status activated: '&a&l[ATTIVATA]'
+Wool quarry status disabled: '&c&l[DISATTIVATA]'
+
+Wool quarry inventory title: '        &4❦ &4&lCAVA DI TOSATURA&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lVELOCITÀ&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Aumenta la velocità di tosatura delle pecore!'
+  - '&a▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&a▪ &7I miglioramenti influenzano il consumo di carburante!'
+
+Wool quarry radius button title: '&b۞ &lRAGGIO&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7Aumenta il raggio di tosatura delle pecore!'
+  - '&b▪ &7Puoi acquistare aggiornamenti cliccando sull''icona!'
+  - '&b▪ &7I miglioramenti non influenzano la velocità!'
+
+
+# Puoi aggiungere e rimuovere valori
+# 1,2,3,4,5 -> Le chiavi sono nel config, nel config ci sono 5 velocità e ci sono 5 valori. Devono essere gli stessi
+
+Wool quarry speed item 1 title: '%selected%&a&lAGILE&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Aumenta la velocità di tosatura della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Aumenta la velocità di tosatura della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lISTANTANEO&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Aumenta la velocità di tosatura della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lULTRA-VELOCE&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Aumenta la velocità di tosatura della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Aumenta la velocità di tosatura della cava.'
+  - '&7Se acquisti una velocità maggiore, non'
+  - '&7potrai scegliere una inferiore.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lAMPIO&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Aumenta il raggio di tosatura della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lSPAZIOSO&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Aumenta il raggio di tosatura della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai scegliere uno inferiore.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lA LARGA SCALA&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Aumenta il raggio di tosatura della cava.'
+  - '&7Se acquisti un raggio maggiore, non'
+  - '&7potrai sceglierne uno minore'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Aumenta il raggio di tosatura della cava.'
+  - '&7Se acquisti un raggio maggiore, non potrai'
+  - '&7scegliere un valore più basso.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lINRAGGIUNGIBILE&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Aumenta il raggio di tosatura della cava.'
+  - '&7Se acquisti un raggio maggiore, non potrai'
+  - '&7scegliere un valore più basso.'
+  - '%price tag%'
+
+
+# ╔═══════════════════════╗
+# ║  DESCRIZIONE D'AIUTO  ║
+# ╚═══════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lCOMANDI DI QUARRY: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lPLUGIN QUARRY - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fOttieni un blocco di cava:'
+  - '&a/quarry create <tipo> &for &a/quarry create <tipo> <giocatore>'
+  - '&2➩ &fApre un negozio di cave:'
+  - '&a/quarry shop'
+  - '&2➩ &fAggiungi un elemento allo scambiatore:'
+  - '&a/quarry exchanger add <slot> <prezzo>'
+  - '&2➩ &fRimuovi un elemento dallo scambiatore:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fPagina: &21&f/&22'
+Help lines 2:
+  - '&fPagina: &22&f/&22'

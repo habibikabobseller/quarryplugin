@@ -1,0 +1,983 @@
+# ╔════════════════════╗
+# ║  MENSAGENS GERAIS  ║
+# ╚════════════════════╝
+
+You dont have the permission: '&cVocê não tem a permissão necessária!'
+You are not the player: '&cVocê não é um jogador!'
+Player isnt exists: '&cO jogador está offline!'
+Plugin reloaded: '&aPlugin recarregado!'
+Havent enough money: '&cVocê não tem dinheiro suficiente!'
+Buying coins message: '&fVocê comprou &e&l%price%&6&l$&r &fem fichas!'
+Limit of placed quarries: '&cVocê atingiu o valor máximo de pedreiras colocadas!'
+
+Quarry created: '&a&lPEDREIRA CRIADA!'
+Quarry placed: '&e&lPEDREIRA ESTABELECIDA!'
+Quarry removed: '&c&lPEDREIRA REMOVIDA!'
+Quarry received: '&a&lVOCÊ RECEBEU UMA PEDREIRA!'
+Quarry gave: '&e&lVOCÊ DEU UMA PEDREIRA PARA UM JOGADOR!'
+Quarry already opened: '&cA pedreira já está aberta por outro jogador'
+Quarry filling: '&aVocê preencheu a pedreira!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[NÃO PODE SER COMPRADO]'
+
+
+# ╔════════════════════╗
+# ║  LOJA & TROCADOR   ║
+# ╚════════════════════╝
+
+Quarry shop title: '             &2⛃ &lLOJA&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lTROCADOR&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Troque recursos por moedas!'
+Quarry exchanger title: '          &5❂ &lTROCADOR&r &5❂'
+Quarry exchanger balance title: '&f&lSALDO&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fNovo item adicionado ao trocador!'
+Quarry exchanger item removed: '&fItem removido do trocador!'
+Quarry exchanger item lore:
+  - '&7Preço: &e%price% &6⛃'
+
+
+# ╔═══════════════════╗
+# ║   BOTÕES GERAIS   ║
+# ╚═══════════════════╝
+
+Quarry fuel title: '&e☢ &lCOMBUSTÍVEL&r &e☢'
+Quarry fuel lore:
+  - '&7Combustível é necessário para a pedreira funcionar!'
+  - '&a✔ &7Restante: %fuel%'
+  - '&7Se o combustível acabar - a máquina parará!'
+  - '&7Clique &c4 Carvão &7para reabastecer!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lDESLIGAR MOTOR'
+Quarry start title disabled: '&e&lLIGAR MOTOR'
+Quarry start lore:
+  - '&7Liga, desliga o motor!'
+  - '&7Consome combustível quando ligado!'
+
+Quarry storage gui title: '             &b&lARMAZENAMENTO'
+Quarry storage title: '&b&lARMAZENAMENTO'
+Quarry storage lore:
+  - '&7Aqui você pode pegar os recursos extraídos!'
+  - '&7Ao tentar quebrar uma pedreira sem'
+  - '&7pegar os recursos, eles cairão!'
+
+Quarry owner title open: '&e&lABERTO'
+Quarry owner title closed: '&c&lFECHADO'
+Quarry owner lore:
+  - '&7Dono: &e%player%'
+  - '&7Clique para permitir que outros jogadores abram a pedreira.'
+  - '&7Ou não poder abrir!'
+
+Quarry speed gui title: '             &a➠ &a&lVELOCIDADE&r &a➠'
+Quarry radius gui title: '            &b۞ &lRAIO&r &b۞'
+Quarry luck gui title: '              &6✪ &lSORTE&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBÔNUS&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lTOQUE SUAVE&r &e✦'
+
+
+# ╔═══════════════════════╗
+# ║  PEDREIRA DE MINÉRIO  ║
+# ╚═══════════════════════╝
+
+Ore quarry title: '&c⛏ &c&lPEDREIRA DE MINÉRIO&r &c⛏'
+Ore quarry lore:
+  - '&8Minerar minério em um determinado raio.'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+  - '&6+ &6&lSORTE'
+  - '&d+ &d&lBÔNUS'
+  - '&e+ &e&lTOQUE SUAVE'
+Ore quarry shop lore:
+  - '&8Minerar minério em um determinado raio.'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+  - '&6+ &6&lSORTE'
+  - '&d+ &d&lBÔNUS'
+  - '&e+ &e&lTOQUE SUAVE'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lPEDREIRA DE MINÉRIO&r &c⛏'
+  - '&fDono: &a%player%'
+  - '&fStatus: &a%status%'
+Ore quarry status activated: '&a&l[ATIVADO]'
+Ore quarry status disabled: '&c&l[DESATIVADO]'
+
+Ore quarry inventory title: '         &4⛏ &4&lPEDREIRA DE MINÉRIO&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Acelera a extração de recursos!'
+  - '&a▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&a▪ &7Melhorias afetam o consumo de combustível!'
+
+Ore quarry radius button title: '&b۞ &lRAIO&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Aumenta o raio de extração de recursos!'
+  - '&b▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&b▪ &7Melhorias não afetam a velocidade!'
+
+Ore quarry luck button title: '&6✪ &lSORTE&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Aumenta a sorte ao minerar certos minérios!'
+  - '&6▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&6▪ &7Melhorias não afetam a velocidade!'
+
+Ore quarry bonuses button title: '&d⛃ &lBÔNUS&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Permite obter cristais raros entre os minérios com certa chance!'
+  - '&d▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&d▪ &7Melhorias não afetam o consumo de combustível!'
+
+Ore quarry silktouch button title: '&e✦ &lTOQUE SUAVE&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Permite minerar carvão, minério de diamante, etc!'
+  - '&e▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&e▪ &7O modo ativado desativa bônus e sorte!'
+  - '&ePode ser desativado!'
+Ore quarry silktouch button value activated: '&a&l[ATIVADO]'
+Ore quarry silktouch button value disabled: '&c&l[DESATIVADO]'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são da configuração, na configuração há 5 velocidades e há 5 valores. Devem ser os mesmos
+
+Ore quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de mineração da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de mineração da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de mineração da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de mineração da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de mineração da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lAMPLIADO&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Aumenta o raio de mineração da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lESPAÇOSO&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Aumenta o raio de mineração da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lEM GRANDE ESCALA&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Aumenta o raio de mineração da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lIMENSO&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Aumenta o raio de mineração da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lINALCANÇÁVEL&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Aumenta o raio de mineração da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lVANTAJOSO&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Aumenta a sorte de mineração da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lDESEJADO&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Aumenta a sorte de mineração da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lSORTUDO&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Aumenta a sorte de mineração da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lPROLÍFICO&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Aumenta a sorte de mineração da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lEXATO PELO DESTINO&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Aumenta a sorte de mineração da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Dá uma chance de obter recursos adicionais ao minerar.'
+  - '&7Se você comprar bônus maiores, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] ESMERALDA'
+  - '&6&l[&r&f✕2&6&l] PEDAÇO DE OURO'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Dá uma chance de obter recursos adicionais ao minerar.'
+  - '&7Se você comprar bônus maiores, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] ESMERALDA'
+  - '&6&l[&r&f✕3&6&l] PEDAÇO DE OURO'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lULTIMATO'
+Ore quarry bonuses item 3 lore:
+  - '&7Dá uma chance de obter recursos adicionais ao minerar.'
+  - '&7Se você comprar bônus maiores, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] ESMERALDA'
+  - '&6&l[&r&f✕5&6&l] PEDAÇO DE OURO'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lTOQUE DE SEDA'
+Ore quarry silktouch item 1 lore:
+  - '&7Permite minerar minérios sem destruir os cristais.'
+  - '&7Você pode ligar e desligar o modo no menu principal!'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25000 &6⛃'
+
+
+# ╔═══════════════════════╗
+# ║  PEDREIRA DE MADEIRA  ║
+# ╚═══════════════════════╝
+
+Wood quarry title: '&e♣ &e&lPEDREIRA DE MADEIRA&r &e♣'
+Wood quarry lore:
+  - '&8Derruba árvores dentro de um certo raio.'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+Wood quarry shop lore:
+  - '&8Derruba árvores dentro de um certo raio.'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lPEDREIRA DE MADEIRA&r &e♣'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Wood quarry status activated: '&a&l[ATIVADO]'
+Wood quarry status disabled: '&c&l[DESATIVADO]'
+
+Wood quarry inventory title: '         &4♣ &4&lPEDREIRA DE MADEIRA&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de extração de madeira!'
+  - '&a▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&a▪ &7Melhorias afetam o consumo de combustível!'
+
+Wood quarry radius button title: '&b۞ &lRAIO&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Aumenta o raio de extração de madeira!'
+  - '&b▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&b▪ &7Melhorias não afetam a velocidade!'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são da configuração, na configuração há 5 velocidades e há 5 valores. Devem ser os mesmos
+
+Wood quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de corte da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de corte da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de corte da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de corte da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de corte da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lAMPLIADO&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Aumenta o raio de corte da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lESPAÇOSO&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Aumenta o raio de corte da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lEM GRANDE ESCALA&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Aumenta o raio de corte da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lIMENSO&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Aumenta o raio de corte da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lINALCANÇÁVEL&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Aumenta o raio de corte da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+
+
+# ╔══════════════════════╗
+# ║  PEDREIRA DE PEIXES  ║
+# ╚══════════════════════╝
+
+Fish quarry title: '&b☄ &b&lPEDREIRA DE PEIXES&r &b☄'
+Fish quarry lore:
+  - '&8Pega peixes e objetos das profundezas.'
+  - '&8Para funcionar, você precisa de uma piscina de &b3 por 3 &8e'
+  - '&8uma pedreira no topo no centro!'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lSORTE'
+  - '&d+ &d&lBONUSES'
+Fish quarry shop lore:
+  - '&8Pega peixes e objetos das profundezas.'
+  - '&8Consome combustível enquanto está funcionando.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lSORTE'
+  - '&d+ &d&lBONUSES'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lPEDREIRA DE PEIXES&r &b☄'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Fish quarry status activated: '&a&l[ATIVADO]'
+Fish quarry status disabled: '&c&l[DESATIVADO]'
+
+Fish quarry inventory title: '         &4☄ &4&lPEDREIRA DE PEIXES&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de pesca!'
+  - '&a▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&a▪ &7Melhorias afetam o consumo de combustível!'
+
+Fish quarry luck button title: '&6✪ &lSORTE&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Aumenta a chance de pegar um item!'
+  - '&6▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&6▪ &7Melhorias não afetam a velocidade!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUSES&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Permite pescar itens raros das profundezas!'
+  - '&d▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&d▪ &7Melhorias não afetam o consumo de combustível!'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são da configuração, na configuração há 5 velocidades e há 5 valores. Devem ser os mesmos
+
+Fish quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de captura da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de captura da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de captura da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de captura da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de captura da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lVANTAJOSO&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Aumenta a sorte de captura da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lDESEJADO&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Aumenta a sorte de captura da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lSORTUDO&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Aumenta a sorte de captura da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lPROLÍFICO&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Aumenta a sorte de captura da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lEXIGIDO PELO DESTINO&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Aumenta a sorte de captura da pedreira.'
+  - '&7Se você comprar uma sorte maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSUPERIOR'
+Fish quarry bonuses item 1 lore:
+  - '&7Adiciona uma chance de obter itens valiosos ao pescar.'
+  - '&7Se você comprar um bônus maior, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] ESMERALDA'
+  - '&6&l[&r&f✕2&6&l] NUGGET DE OURO'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Adiciona uma chance de obter itens valiosos ao pescar.'
+  - '&7Se você comprar um bônus maior, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] ESMERALDA'
+  - '&6&l[&r&f✕3&6&l] NUGGET DE OURO'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lMÁXIMO'
+Fish quarry bonuses item 3 lore:
+  - '&7Adiciona uma chance de obter itens valiosos ao pescar.'
+  - '&7Se você comprar um bônus maior, não poderá'
+  - '&7escolher um menor.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] ESMERALDA'
+  - '&6&l[&r&f✕5&6&l] NUGGET DE OURO'
+  - '%price tag%'
+
+
+# ╔════════════════════╗
+# ║  PEDREIRA DE MOBS  ║
+# ╚════════════════════╝
+
+Mob quarry title: '&4➹ &4&lPEDREIRA DE MOBS&r &4➹'
+Mob quarry lore:
+  - '&8Mata criaturas e coleta loot e experiência.'
+  - '&8Consome combustível enquanto estiver em execução.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lRAIO'
+  - '&d+ &d&lEXP'
+Mob quarry shop lore:
+  - '&8Mata criaturas e coleta loot e experiência.'
+  - '&8Consome combustível enquanto estiver em execução.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lRAIO'
+  - '&d+ &d&lEXP'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lPEDREIRA DE MOBS&r &4➹'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Mob quarry status activated: '&a&l[ATIVADO]'
+Mob quarry status disabled: '&c&l[DESATIVADO]'
+
+Mob quarry inventory title: '         &4➹ &4&lPEDREIRA DE MOBS&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de matar criaturas!'
+  - '&a▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&a▪ &7Melhorias afetam o consumo de combustível!'
+
+Mob quarry radius button title: '&b۞ &lRAIO&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Aumenta o raio de matar criaturas!'
+  - '&b▪ &7Você pode comprar upgrades clicando no ícone!'
+  - '&b▪ &7Melhorias não afetam a velocidade!'
+
+Mob quarry exp button title: '&d✦ &lEXP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7Quando você mata criaturas, experiência é acumulada!'
+  - '&d▪ &7Você pode coletá-la clicando no ícone!'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são do config, no config existem 5 velocidades e existem 5 valores. Deve ser o mesmo
+
+Mob quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de assassinato da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de assassinato da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de assassinato da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de assassinato da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de assassinato da pedreira.'
+  - '&7Se você comprar uma velocidade maior, não poderá'
+  - '&7escolher uma menor.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lAMPLA&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Aumenta o raio de assassinato da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lESPACOSA&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Aumenta o raio de assassinato da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lEM GRANDE ESCALA&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Aumenta o raio de assassinato da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lIMENSA&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Aumenta o raio de assassinato da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lINATINGÍVEL&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Aumenta o raio de assassinato da pedreira.'
+  - '&7Se você comprar um raio maior, não poderá'
+  - '&7escolher um menor.'
+  - '%price tag%'
+
+
+# ╔═════════════════════════╗
+# ║  PEDREIRA DE PLANTAÇÃO  ║
+# ╚═════════════════════════╝
+
+Farm quarry title: '&a☀ &a&lPEDREIRA DE PLANTAÇÃO&r &a☀'
+Farm quarry lore:
+  - '&8Coletando e plantando plantas.'
+  - '&8Consome combustível durante a operação.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lRAIO'
+  - '&2+ &2&lFERTILIZANTE'
+  - '&3+ &3&lUMIDADE'
+Farm quarry shop lore:
+  - '&8Coletando e plantando plantas.'
+  - '&8Consome combustível durante a operação.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6+ &6&lRAIO'
+  - '&2+ &2&lFERTILIZANTE'
+  - '&3+ &3&lUMIDADE'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lPEDREIRA DE PLANTAÇÃO&r &a☀'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Farm quarry status activated: '&a&l[ATIVADO]'
+Farm quarry status disabled: '&c&l[DESATIVADO]'
+
+Farm quarry inventory title: '         &4☀ &4&lPEDREIRA DE PLANTAÇÃO&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de colheita e adubação das plantas!'
+  - '&a▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&a▪ &7As melhorias afetam o consumo de combustível!'
+
+Farm quarry radius button title: '&b۞ &lRAIO&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Aumenta o raio de colheita e adubação das plantas!'
+  - '&b▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&b▪ &7As melhorias não afetam a velocidade!'
+
+Farm quarry fertilizer button title: '&2❀ &lFERTILIZANTE&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7Se houver fertilizante - dá uma chance de adubar a planta!'
+  - '&2▪ &7O fertilizante aumenta a taxa de crescimento da planta!'
+  - '&2▪ &7O fertilizante não é obrigatório!'
+  - '&a✔ &7Restante: %fertilizer%'
+  - '&2▪ &7Clique &f1 Farinha de Osso &7para recarregar!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lUMIDADE&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7Se houver umidade - dá uma chance de regar a planta!'
+  - '&b▪ &7A água aumenta a taxa de crescimento da planta.'
+  - '&b▪ &7A água não é obrigatória!'
+  - '&a✔ &7Restante: %humidity%'
+  - '&b▪ &7Clique &b1 Balde de Água &7para recarregar!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são do arquivo de configuração, no arquivo de configuração há 5 velocidades e 5 valores. Deve ser o mesmo
+
+Farm quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de cultivo da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de cultivo da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de cultivo da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de cultivo da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de cultivo da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lLARGO&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Aumenta o raio de cultivo da pedreira.'
+  - '&7Se você comprar um raio mais alto, não poderá'
+  - '&7escolher um mais baixo.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lESPACOSO&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Aumenta o raio de cultivo da pedreira.'
+  - '&7Se você comprar um raio mais alto, não poderá'
+  - '&7escolher um mais baixo.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lGRANDE-ESCALA&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Aumenta o raio de cultivo da pedreira.'
+  - '&7Se você comprar um raio mais alto, não poderá'
+  - '&7escolher um mais baixo.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lIMENSO&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Aumenta o raio de cultivo da pedreira.'
+  - '&7Se você comprar um raio mais alto, não poderá'
+  - '&7escolher um mais baixo.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lINATINGÍVEL&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Aumenta o raio de cultivo da pedreira.'
+  - '&7Se você comprar um raio mais alto, não poderá'
+  - '&7escolher um mais baixo.'
+  - '%price tag%'
+
+
+# ╔════════════════╗
+# ║    PEDREIRA    ║
+# ╚════════════════╝
+
+Stone quarry title: '&7■ &7&lPEDREIRA DE PEDRA&r &7■'
+Stone quarry lore:
+  - '&8Esmaga 1 bloco abaixo dele.'
+  - '&8Consome combustível enquanto está em funcionamento.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+Stone quarry shop lore:
+  - '&8Esmaga 1 bloco abaixo dele.'
+  - '&8Consome combustível enquanto está em funcionamento.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lPEDREIRA DE PEDRA&r &7■'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Stone quarry status activated: '&a&l[ATIVADO]'
+Stone quarry status disabled: '&c&l[DESATIVADO]'
+
+Stone quarry inventory title: '        &4■ &4&lPEDREIRA DE PEDRA&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de mineração de pedregulho!'
+  - '&a▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&a▪ &7As melhorias afetam o consumo de combustível!'
+
+
+# Você pode adicionar e remover valores
+# 1,2,3,4,5 -> As chaves são do arquivo de configuração, no arquivo de configuração há 5 velocidades e 5 valores. Deve ser o mesmo
+
+Stone quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de mineração de pedregulho!'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de esmagamento da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lINSTANTÂNEO&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de esmagamento da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de esmagamento da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de esmagamento da pedreira.'
+  - '&7Se você comprar uma velocidade mais alta, não poderá'
+  - '&7escolher uma mais baixa.'
+  - '%price tag%'
+
+
+
+# ╔══════════════════╗
+# ║  PEDREIRA DE LÃ  ║
+# ╚══════════════════╝
+
+Wool quarry title: '&d❦ &d&lPEDREIRA DE LÃ&r &d❦'
+Wool quarry lore:
+  - '&8Tosquiando ovelhas ao redor.'
+  - '&8Consome combustível durante a operação.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+Wool quarry shop lore:
+  - '&8Tosquiando ovelhas ao redor.'
+  - '&8Consome combustível durante a operação.'
+  - '&e☻ &f&lMELHORIAS:'
+  - '&a+ &a&lVELOCIDADE'
+  - '&b+ &b&lRAIO'
+  - '&6&l[&f&lCLIQUE PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lPEDREIRA DE LÃ&r &d❦'
+  - '&fProprietário: &a%player%'
+  - '&fStatus: &a%status%'
+Wool quarry status activated: '&a&l[ATIVADO]'
+Wool quarry status disabled: '&c&l[DESATIVADO]'
+
+Wool quarry inventory title: '        &4❦ &4&lPEDREIRA DE LÃ&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lVELOCIDADE&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Aumenta a velocidade de tosquia das ovelhas!'
+  - '&a▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&a▪ &7As melhorias afetam o consumo de combustível!'
+
+Wool quarry radius button title: '&b۞ &lRAIO&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7Aumenta o raio de tosquia das ovelhas!'
+  - '&b▪ &7Você pode comprar melhorias clicando no ícone!'
+  - '&b▪ &7As melhorias não afetam a velocidade!'
+
+
+# Você pode adicionar e remover valores
+#1,2,3,4,5 -> As chaves são da configuração, na configuração existem 5 velocidades e existem 5 valores. Deveria ser o mesmo
+
+Wool quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Aumenta a velocidade de tosquia da pedreira.'
+  - '&7Se você comprar uma velocidade maior, você não'
+  - '&7poderá escolher uma menor.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Aumenta a velocidade de tosquia da pedreira.'
+  - '&7Se você comprar uma velocidade maior, você não'
+  - '&7poderá escolher uma menor.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Aumenta a velocidade de tosquia da pedreira.'
+  - '&7Se você comprar uma velocidade maior, você não'
+  - '&7poderá escolher uma menor.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Aumenta a velocidade de tosquia da pedreira.'
+  - '&7Se você comprar uma velocidade maior, você não'
+  - '&7poderá escolher uma menor.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Aumenta a velocidade de tosquia da pedreira.'
+  - '&7Se você comprar uma velocidade maior, você não'
+  - '&7poderá escolher uma menor.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lLARGO&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Aumenta o raio de tosquia da pedreira.'
+  - '&7Se você comprar um raio maior, você não'
+  - '&7poderá escolher um menor.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lESPACOSO&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Aumenta o raio de tosquia da pedreira.'
+  - '&7Se você comprar um raio maior, você não'
+  - '&7poderá escolher um menor.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lGRANDE-ESCALA&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Aumenta o raio de tosquia da pedreira.'
+  - '&7Se você comprar um raio maior, você não'
+  - '&7poderá escolher um menor.'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lIMENSO&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Aumenta o raio de tosquia da pedreira.'
+  - '&7Se você comprar um raio maior, você não'
+  - '&7poderá escolher um menor.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lINATINGÍVEL&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Aumenta o raio de tosquia da pedreira.'
+  - '&7Se você comprar um raio maior, você não'
+  - '&7poderá escolher um menor.'
+  - '%price tag%'
+
+
+# ╔══════════════════════╗
+# ║  DESCRIÇÃO DA AJUDA  ║
+# ╚══════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY COMMANDS: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY PLUGIN - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fObter um bloco de pedreira:'
+  - '&a/quarry create <type> &for &a/quarry create <type> <player>'
+  - '&2➩ &fAbrir uma loja de pedreira:'
+  - '&a/quarry shop'
+  - '&2➩ &fAdicionar item ao trocador:'
+  - '&a/quarry exchanger add <slot> <price>'
+  - '&2➩ &fRemover item do trocador:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fPágina: &21&f/&22'
+Help lines 2:
+  - '&fPágina: &22&f/&22'

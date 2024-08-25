@@ -1,0 +1,31 @@
+name: Quarry
+version: 1.0
+author: MyShimado
+main: org.shimado.query.Quarry
+api-version: 1.13
+softdepend: [Vault, WorldGuard, LuckPerms]
+commands:
+  quarry:
+    aliases: ['qp']
+    usage: /quarry help
+permissions:
+  quarry.*:
+    description: Gives all permissions
+  quarry.type.*:
+    description: Gives all permissions to open and turn on all types of quarries
+  quarry.type.ore:
+    description: Gives all permissions to open and turn on ore quarry
+  quarry.booster.*:
+    description: Gives all permissions to open and use all quarry boosters
+  quarry.booster.ore:
+    description: Gives all permissions to open and use quarry boosters
+  quarry.create.player:
+    description: Allows you to give careers to players
+  quarry.create:
+    description: Allows you to give careers to you
+  quarry.shop:
+    description: Allows you to open a shop
+  quarry.exchanger:
+    description: Allows you to open an exchanger
+  quarry.exchanger.add:
+    description: Allows you to add items to the exchanger

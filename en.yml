@@ -1,0 +1,985 @@
+# ╔════════════════════╗
+# ║  GENERAL MESSAGES  ║
+# ╚════════════════════╝
+
+You dont have the permission: '&cYou dont have the required permission!'
+You are not the player: '&cYou are not a player!'
+Player isnt exists: '&cPlayer is offline!'
+Plugin reloaded: '&aQuarry reloaded!'
+Havent enough money: '&cYou dont have enough money!'
+Buying coins message: '&fYou bought &e&l%price%&6&l$&r &fworth of chips!'
+Limit of placed quarries: '&cYou have reached the maximum value of placed quarries!'
+
+Quarry created: '&a&lQUARRY IS CREATED!'
+Quarry placed: '&e&lQUARRY IS ESTABLISHED!'
+Quarry removed: '&c&lQUARRY IS REMOVED!'
+Quarry received: '&a&lYOU HAVE BEEN GIVEN A QUARRY!'
+Quarry gave: '&e&lYOU GOT A CAREER TO A PLAYER!'
+Quarry already opened: '&cThe quarry is already open by another player'
+Quarry filling: '&aYou have filled the quarry!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lCLICK TO BUY&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[CANNOT BE PURCHASED]'
+
+
+# ╔════════════════════╗
+# ║  SHOP & EXCHANGER  ║
+# ╚════════════════════╝
+
+Quarry shop title: '             &2⛃ &lSHOP&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lEXCHANGER&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Exchange resources for currency!'
+Quarry exchanger title: '          &5❂ &lEXCHANGER&r &5❂'
+Quarry exchanger balance title: '&f&lBALANCE&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fNew item added to the exchanger!'
+Quarry exchanger item removed: '&fItem removed from the exchanger!'
+Quarry exchanger item lore:
+  - '&7Price: &e%price% &6⛃'
+
+
+# ╔═══════════════════╗
+# ║  GENERAL BUTTONS  ║
+# ╚═══════════════════╝
+
+Quarry fuel title: '&e☢ &lFUEL&r &e☢'
+Quarry fuel lore:
+  - '&7Fuel is necessary for the quarry to work!'
+  - '&a✔ &7Left: %fuel%'
+  - '&7If the fuel runs out - the machine will stop!'
+  - '&7Click &c4 Coal &7to refill!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lTURN OFF ENGINE'
+Quarry start title disabled: '&e&lTURN ON ENGINE'
+Quarry start lore:
+  - '&7Starts, turns off the engine!'
+  - '&7Consumes fuel when turned on!'
+
+Quarry storage gui title: '             &b&lSTORAGE'
+Quarry storage title: '&b&lSTORAGE'
+Quarry storage lore:
+  - '&7Here you can pick up the extracted resources!'
+  - '&7When you try to break a quarry without'
+  - '&7getting resources, they will fall out!'
+
+Quarry owner title open: '&e&lOPEN'
+Quarry owner title closed: '&c&lCLOSED'
+Quarry owner lore:
+  - '&7Owner: &e%player%'
+  - '&7Click to allow other players to open the quarry.'
+  - '&7Or not to be able to open!'
+
+Quarry speed gui title: '             &a➠ &a&lSPEED&r &a➠'
+Quarry radius gui title: '            &b۞ &lRADIUS&r &b۞'
+Quarry luck gui title: '              &6✪ &lLUCK&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBONUSES&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lSILK TOUCH&r &e✦'
+
+
+# ╔══════════════╗
+# ║  ORE QUARRY  ║
+# ╚══════════════╝
+
+Ore quarry title: '&c⛏ &c&lORE QUARRY&r &c⛏'
+Ore quarry lore:
+  - '&8Mines ore in a certain radius.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+  - '&6+ &6&lLUCK'
+  - '&d+ &d&lBONUSES'
+  - '&e+ &e&lSILKTOUCH'
+Ore quarry shop lore:
+  - '&8Mines ore in a certain radius.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+  - '&6+ &6&lLUCK'
+  - '&d+ &d&lBONUSES'
+  - '&e+ &e&lSILKTOUCH'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lORE QUARRY&r &c⛏'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Ore quarry status activated: '&a&l[ACTIVATED]'
+Ore quarry status disabled: '&c&l[DISABLED]'
+
+Ore quarry inventory title: '         &4⛏ &4&lORE QUARRY&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Speeds up the extraction of resources!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Ore quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Increases resource extraction radius!'
+  - '&b▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&b▪ &7Improvements do not affect speed!'
+
+Ore quarry luck button title: '&6✪ &lLUCK&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Increases luck when mining certain ores!'
+  - '&6▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&6▪ &7Improvements do not affect speed!'
+
+Ore quarry bonuses button title: '&d⛃ &lBONUSES&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Allows you to get rare crystals among the ore with some chance!'
+  - '&d▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&d▪ &7Improvements do not affect fuel consumption!'
+
+Ore quarry silktouch button title: '&e✦ &lSILK TOUCH&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Allows you to mine coal, diamond ore, etc!'
+  - '&e▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&e▪ &7The enabled mode disables bonuses and luck!'
+  - '&eCan be disabled!'
+Ore quarry silktouch button value activated: '&a&l[ACTIVATED]'
+Ore quarry silktouch button value disabled: '&c&l[DISABLED]'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Ore quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Increases the mining speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Increases the mining speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Increases the mining speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Increases the mining speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Increases the mining speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Increases the mining radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Increases the mining radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Increases the mining radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Increases the mining radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Increases the mining radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lADVANTAGEOUS&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Increases the mining luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lDESIRED&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Increases the mining luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lLUCKY&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Increases the mining luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lPROLIFIC&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Increases the mining luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lEXACTED BY FATE&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Increases the mining luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Gives a chance to get additional resources when digging.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMOND'
+  - '&a&l[&r&f✕0.8&a&l] EMERALD'
+  - '&6&l[&r&f✕2&6&l] GOLD NUGGET'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Gives a chance to get additional resources when digging.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMOND'
+  - '&a&l[&r&f✕1&a&l] EMERALD'
+  - '&6&l[&r&f✕3&6&l] GOLD NUGGET'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lULTIMATE'
+Ore quarry bonuses item 3 lore:
+  - '&7Gives a chance to get additional resources when digging.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕1&b&l] DIAMOND'
+  - '&a&l[&r&f✕1.4&a&l] EMERALD'
+  - '&6&l[&r&f✕5&6&l] GOLD NUGGET'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lSILK TOUCH'
+Ore quarry silktouch item 1 lore:
+  - '&7Allows you to mine ores without knocking out crystals.'
+  - '&7You can turn the mode on and off in the main menu!'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25000 &6⛃'
+
+
+# ╔═══════════════╗
+# ║  WOOD QUARRY  ║
+# ╚═══════════════╝
+
+Wood quarry title: '&e♣ &e&lWOOD QUARRY&r &e♣'
+Wood quarry lore:
+  - '&8Cuts down trees within a certain radius.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+Wood quarry shop lore:
+  - '&8Cuts down trees within a certain radius.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lWOOD QUARRY&r &e♣'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Wood quarry status activated: '&a&l[ACTIVATED]'
+Wood quarry status disabled: '&c&l[DISABLED]'
+
+Wood quarry inventory title: '         &4♣ &4&lWOOD QUARRY&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Increases the speed of wood extraction!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Wood quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Increases the radius of wood extraction!'
+  - '&b▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&b▪ &7Improvements do not affect speed!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Wood quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Increases the cutting speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Increases the cutting speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Increases the cutting speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Increases the cutting speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Increases the cutting speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Increases the cutting radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Increases the cutting radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Increases the cutting radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Increases the cutting radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Increases the cutting radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  FISH QUARRY  ║
+# ╚═══════════════╝
+
+Fish quarry title: '&b☄ &b&lFISH QUARRY&r &b☄'
+Fish quarry lore:
+  - '&8Catches fish and objects from the depths.'
+  - '&8To work, you need a &b3 by 3 &8pool and'
+  - '&8a quarry at the top in the center!'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lLUCK'
+  - '&d+ &d&lBONUSES'
+Fish quarry shop lore:
+  - '&8Catches fish and objects from the depths.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lLUCK'
+  - '&d+ &d&lBONUSES'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lFISH QUARRY&r &b☄'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Fish quarry status activated: '&a&l[ACTIVATED]'
+Fish quarry status disabled: '&c&l[DISABLED]'
+
+Fish quarry inventory title: '         &4☄ &4&lFISH QUARRY&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Increases the speed of fishing!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Fish quarry luck button title: '&6✪ &lLUCK&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Increases a chance to catch an item!'
+  - '&6▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&6▪ &7Improvements do not affect speed!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUSES&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Allows you to fish out rare items from the depths!'
+  - '&d▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&d▪ &7Improvements do not affect fuel consumption!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Fish quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Increases the catching speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Increases the catching speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Increases the catching speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Increases the catching speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Increases the catching speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lADVANTAGEOUS&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Increases the catching luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lDESIRED&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Increases the catching luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lLUCKY&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Increases the catching luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lPROLIFIC&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Increases the catching luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lEXACTED BY FATE&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Increases the catching luck of the quarry.'
+  - '&7If you buy a higher luck, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Fish quarry bonuses item 1 lore:
+  - '&7Adds a chance to get valuable items when fishing.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMOND'
+  - '&a&l[&r&f✕0.8&a&l] EMERALD'
+  - '&6&l[&r&f✕2&6&l] GOLD NUGGET'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Adds a chance to get valuable items when fishing.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMOND'
+  - '&a&l[&r&f✕1&a&l] EMERALD'
+  - '&6&l[&r&f✕3&6&l] GOLD NUGGET'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lULTIMATE'
+Fish quarry bonuses item 3 lore:
+  - '&7Adds a chance to get valuable items when fishing.'
+  - '&7If you buy a higher bonuses, you will not'
+  - '&7be able to choose a lower one.'
+  - '&b&l[&r&f✕1&b&l] DIAMOND'
+  - '&a&l[&r&f✕1.4&a&l] EMERALD'
+  - '&6&l[&r&f✕5&6&l] GOLD NUGGET'
+  - '%price tag%'
+
+
+# ╔══════════════╗
+# ║  MOB QUARRY  ║
+# ╚══════════════╝
+
+Mob quarry title: '&4➹ &4&lMOB QUARRY&r &4➹'
+Mob quarry lore:
+  - '&8Kills creatures and collects loot and experience.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lRADIUS'
+  - '&d+ &d&lEXP'
+Mob quarry shop lore:
+  - '&8Kills creatures and collects loot and experience.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lRADIUS'
+  - '&d+ &d&lEXP'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lMOB QUARRY&r &4➹'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Mob quarry status activated: '&a&l[ACTIVATED]'
+Mob quarry status disabled: '&c&l[DISABLED]'
+
+Mob quarry inventory title: '         &4➹ &4&lMOB QUARRY&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Increases the speed of killing creatures!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Mob quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Increases the radius of killing creatures!'
+  - '&b▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&b▪ &7Improvements do not affect speed!'
+
+Mob quarry exp button title: '&d✦ &lEXP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7When killing creatures, experience is accumulated!'
+  - '&d▪ &7You can collect it by clicking on the icon!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Mob quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Increases the murder speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Increases the murder speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Increases the murder speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Increases the murder speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Increases the murder speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Increases the murder radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Increases the murder radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Increases the murder radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Increases the murder radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Increases the murder radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  FARM QUARRY  ║
+# ╚═══════════════╝
+
+Farm quarry title: '&a☀ &a&lFARM QUARRY&r &a☀'
+Farm quarry lore:
+  - '&8Gathering and planting plants.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lRADIUS'
+  - '&2+ &2&lFERTILIZER'
+  - '&3+ &3&lHUMIDITY'
+Farm quarry shop lore:
+  - '&8Gathering and planting plants.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6+ &6&lRADIUS'
+  - '&2+ &2&lFERTILIZER'
+  - '&3+ &3&lHUMIDITY'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lFARM QUARRY&r &a☀'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Farm quarry status activated: '&a&l[ACTIVATED]'
+Farm quarry status disabled: '&c&l[DISABLED]'
+
+Farm quarry inventory title: '         &4☀ &4&lFARM QUARRY&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Increases the speed of harvesting and fertilizing crops!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Farm quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Increases the radius of harvesting and fertilizing crops!'
+  - '&b▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&b▪ &7Improvements do not affect speed!'
+
+Farm quarry fertilizer button title: '&2❀ &lFERTILIZER&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7If there is fertilizer - gives a chance to fertilize the plant!'
+  - '&2▪ &7Fertilizer increases the growth rate of the plant!'
+  - '&2▪ &7Fertilizer is not required!'
+  - '&a✔ &7Left: %fertilizer%'
+  - '&2▪ &7Click &f1 Bone Meal &7to refill!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lHUMIDITY&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7If there is fertilizer - gives a chance to water the plant!'
+  - '&b▪ &7Water increases the growth rate of the plant.'
+  - '&b▪ &7Water is not required!'
+  - '&a✔ &7Left: %humidity%'
+  - '&b▪ &7Click &b1 Water Bucket &7to refill!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Farm quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+# ╔════════════════╗
+# ║  STONE QUARRY  ║
+# ╚════════════════╝
+
+Stone quarry title: '&7■ &7&lSTONE QUARRY&r &7■'
+Stone quarry lore:
+  - '&8Crushes 1 block under it.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+Stone quarry shop lore:
+  - '&8Crushes 1 block under it.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lSTONE QUARRY&r &7■'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Stone quarry status activated: '&a&l[ACTIVATED]'
+Stone quarry status disabled: '&c&l[DISABLED]'
+
+Stone quarry inventory title: '        &4■ &4&lSTONE QUARRY&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7Increases the speed of mining cobblestone!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Stone quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Increases the speed of mining cobblestone!'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Increases the crashing speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Increases the crashing speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Increases the crashing speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Increases the crashing speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  WOOL QUARRY  ║
+# ╚═══════════════╝
+
+Wool quarry title: '&d❦ &d&lWOOL QUARRY&r &d❦'
+Wool quarry lore:
+  - '&8Shearing sheep around.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+Wool quarry shop lore:
+  - '&8Shearing sheep around.'
+  - '&8Consumes fuel while running.'
+  - '&e☻ &f&lIMPROVEMENTS:'
+  - '&a+ &a&lSPEED'
+  - '&b+ &b&lRADIUS'
+  - '&6&l[&f&lCLICK TO BUY&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lWOOL QUARRY&r &d❦'
+  - '&fOwner: &a%player%'
+  - '&fStatus: &a%status%'
+Wool quarry status activated: '&a&l[ACTIVATED]'
+Wool quarry status disabled: '&c&l[DISABLED]'
+
+Wool quarry inventory title: '        &4❦ &4&lWOOL QUARRY&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Increases sheep shearing speed!'
+  - '&a▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&a▪ &7Improvements do affect fuel consumption!'
+
+Wool quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7Increases sheep shearing radius!'
+  - '&b▪ &7You can purchase upgrades by clicking on the icon!'
+  - '&b▪ &7Improvements do not affect speed!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Wool quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Increases the shaving speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Increases the shaving speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Increases the shaving speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Increases the shaving speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Increases the shaving speed of the quarry.'
+  - '&7If you buy a higher speed, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Increases the shaving radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Increases the shaving radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Increases the shaving radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Increases the shaving radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Increases the shaving radius of the quarry.'
+  - '&7If you buy a higher radius, you will not'
+  - '&7be able to choose a lower one.'
+  - '%price tag%'
+
+
+# ╔════════════════════╗
+# ║  HELP DESCRIPTION  ║
+# ╚════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY COMMANDS: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY PLUGIN - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fGet a quarry block:'
+  - '&a/quarry create <type> &for &a/quarry create <type> <player>'
+  - '&2➩ &fOpens a quarry shop:'
+  - '&a/quarry shop'
+  - '&2➩ &fAdd item to the exchanger:'
+  - '&a/quarry exchanger add <slot> <price>'
+  - '&2➩ &fRemove item from the exchanger:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fPage: &21&f/&22'
+Help lines 2:
+  - '&fPage: &22&f/&22'
+#sERaBjUWdXV00EOXZkYnl3URh1T5tGRPl3Y650MFRUT4VkaSFUNVpEesFEeyFETOZGWDNnM

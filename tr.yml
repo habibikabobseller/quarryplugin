@@ -1,0 +1,993 @@
+# ╔══════════════════╗
+# ║  GENEL MESAJLAR  ║
+# ╚══════════════════╝
+
+You dont have the permission: '&cBu komutu kullanmak için gerekli yetkin yok!'
+You are not the player: '&cBu komutu sadece oyunicinden kullanabilirsin!'
+Player isnt exists: '&cOyuncu çevrim dışı!'
+Plugin reloaded: '&aQuarry yinelendi!'
+Havent enough money: '&cYeterli paran yok!'
+Buying coins message: '&e&l%price%&6&l$&r &fdeğerinde cips satın aldın!'
+Limit of placed quarries: '&cYou have reached the maximum value of placed quarries!'
+
+Quarry created: '&a&lQUARRY OLUŞTURULDU!'
+Quarry placed: '&e&lQUARRY YERLEŞTİRİLDİ!'
+Quarry removed: '&c&lQUARRY KALDIRILDI!'
+Quarry received: '&a&lBİR QUARRY KAZANDIN!'
+Quarry gave: '&e&lBIR OYUNCU IÇIN KARIYERIN VAR!'
+Quarry already opened: '&cQuarry şu an başka bir oyuncu tarafından kullanılıyor!'
+Quarry filling: '&aQuarry dolduruldu!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lSATIN AL&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[SATIN ALINAMAZ]'
+
+
+# ╔════════════════════╗
+# ║  MAĞAZA & EŞANJÖR  ║
+# ╚════════════════════╝
+
+Quarry shop title: '             &2⛃ &lMARKET&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lDEĞİŞTİRİCİ&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Kaynakları paraya dönüştürün!'
+Quarry exchanger title: '          &5❂ &lDEĞİŞTİRİCİ&r &5❂'
+Quarry exchanger balance title: '&f&lPARA&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fDeğiştiriciye yeni bir eşya eklendi!'
+Quarry exchanger item removed: '&fDeğiştiriciden bir eşya kaldırıldı!'
+Quarry exchanger item lore:
+  - '&7Ücret: &e%price% &6⛃'
+
+
+# ╔══════════════════╗
+# ║  GENEL DÜĞMELER  ║
+# ╚══════════════════╝
+
+Quarry fuel title: '&e☢ &lYAKIT&r &e☢'
+Quarry fuel lore:
+  - '&7Quarry''nin çalışması için yakıt gereklidir!'
+  - '&a✔ &7Kalan: %fuel%'
+  - '&7Eğer yakıt tükenirse Quarry çalışamayacaktır!'
+  - '&7Tıkla ve &c4 Kömür &7karşılığında doldur!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lMOTOR KAPATILDI'
+Quarry start title disabled: '&e&lMOTOR AÇILDI'
+Quarry start lore:
+  - '&7Motoru açabilir veya kapatabilirsin.'
+  - '&7Motor açıldığında yakıt tüketilir!'
+
+Quarry storage gui title: '             &b&lDEPO'
+Quarry storage title: '&b&lDEPO'
+Quarry storage lore:
+  - '&7Burada çıkarılan kaynakları toplayabilirsiniz!'
+  - '&7Quarry kırıldığı zaman, alınmayan kaynaklar'
+  - '&7yere düşecektir!'
+
+Quarry owner title open: '&e&lAÇIK'
+Quarry owner title closed: '&c&lKAPALI'
+Quarry owner lore:
+  - '&7Sahibi: &e%player%'
+  - '&7Tıklayın ve oyuncuların Quarry''e'
+  - '&7erişimlerini düzenleyin.'
+
+Quarry speed gui title: '             &a➠ &a&lHIZ&r &a➠'
+Quarry radius gui title: '            &b۞ &lALAN&r &b۞'
+Quarry luck gui title: '              &6✪ &lŞANS&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBONUS&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lİPEKSİ DOKUNUŞ&r &e✦'
+
+
+# ╔════════════════╗
+# ║  CEVHER OCAĞI  ║
+# ╚════════════════╝
+
+Ore quarry title: '&c⛏ &c&lCEVHER QUARRY&r &c⛏'
+Ore quarry lore:
+  - '&8Belirli bir alanda cevher çıkartır.'
+  - '&8Çalışırken yakıt tüketir!'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+  - '&6+ &6&lŞANS'
+  - '&d+ &d&lBONUS'
+  - '&e+ &e&lİPEKSİ DOKUNUŞ'
+Ore quarry shop lore:
+  - '&8Belirli bir alanda cevher çıkartır.'
+  - '&8Çalışırken yakıt tüketir!'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+  - '&6+ &6&lŞANS'
+  - '&d+ &d&lBONUS'
+  - '&e+ &e&lİPEKSİ DOKUNUŞ'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lCEVHER QUARRY&r &c⛏'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Ore quarry status activated: '&a&l[AKTİF]'
+Ore quarry status disabled: '&c&l[DE-AKTİF]'
+
+Ore quarry inventory title: '         &4⛏ &4&lCEVHER QUARRY&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&a▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Ore quarry radius button title: '&b۞ &lALAN&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Kaynak çıkarma alanını artırır!'
+  - '&b▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&b▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Ore quarry luck button title: '&6✪ &lŞANS&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Belirli cevherleri çıkarma şansını artırır!'
+  - '&6▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&6▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Ore quarry bonuses button title: '&d⛃ &lBONUS&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Çıkarırken, düşük bir ihtimalle değerli kristaller'
+  - '&7çıkarma şansınızı arttırır.'
+  - '&d▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&d▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Ore quarry silktouch button title: '&e✦ &lİPEKSİ DOKUNUŞ&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Cevherlerin ham maddesini çıkarır!'
+  - '&e▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&e▪ &7Etkinleştirildiği zaman, bonus ve şans'
+  - '&7iyileştirmelerini devre dışı bırakır!'
+  - '&r'
+  - '&eKapatılabilir!'
+Ore quarry silktouch button value activated: '&a&l[AKTİF]'
+Ore quarry silktouch button value disabled: '&c&l[DE-AKTİF]'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Ore quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Daha hızlı kaynak çıkmasını sağlar!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lORTA&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Kaynak çıkarma alanını artırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lGENİŞ&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Kaynak çıkarma alanını artırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lFERAH&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Kaynak çıkarma alanını artırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lBÜYÜK&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Kaynak çıkarma alanını artırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lSONSUZ&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Kaynak çıkarma alanını artırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+Ore quarry luck item 1 title: '%selected%&a&lÇAYLAK ŞANSI&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Belirli cevherleri çıkarma şansını artırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lİYİ GÜNÜNDE&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Belirli cevherleri çıkarma şansını artırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lŞANSLI&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Belirli cevherleri çıkarma şansını artırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lZEKİ&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Belirli cevherleri çıkarma şansını artırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lKADERİ ŞANSLI&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Belirli cevherleri çıkarma şansını artırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSÜPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Çıkarırken, düşük bir ihtimalle değerli kristaller'
+  - '&7çıkarma şansınızı arttırır.'
+  - '&r'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕0.5&b&l] ELMAS'
+  - '&a&l[&r&f✕0.8&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕2&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEKSTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Çıkarırken, düşük bir ihtimalle değerli kristaller'
+  - '&7çıkarma şansınızı arttırır.'
+  - '&r'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕0.7&b&l] ELMAS'
+  - '&a&l[&r&f✕1&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕3&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lULTİMATE'
+Ore quarry bonuses item 3 lore:
+  - '&7Çıkarırken, düşük bir ihtimalle değerli kristaller'
+  - '&7çıkarma şansınızı arttırır.'
+  - '&r'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕1&b&l] ELMAS'
+  - '&a&l[&r&f✕1.4&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕5&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lİPEKSİ DOKUNUŞ'
+Ore quarry silktouch item 1 lore:
+  - '&7Cevherlerin ham maddesini çıkarır.'
+  - '&7Ana menüden bu iyileştirmeyi açabilir/kapatabilirsiniz!'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25000 &6⛃'
+
+
+# ╔══════════════╗
+# ║  ODUN OCAĞI  ║
+# ╚══════════════╝
+
+Wood quarry title: '&e♣ &e&lAHŞAP QUARRY&r &e♣'
+Wood quarry lore:
+  - '&8Belirli alan içerisindeki ağaçları keser.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+Wood quarry shop lore:
+  - '&8Belirli alan içerisindeki ağaçları keser.'
+  - '&8Çalışırken yakıt tüketilir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lWOOD QUARRY&r &e♣'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Wood quarry status activated: '&a&l[AKTİF]'
+Wood quarry status disabled: '&c&l[DE-AKTİF]'
+
+Wood quarry inventory title: '         &4♣ &4&lAHŞAP QUARRY&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Ahşap kesme hızını arttırır.'
+  - '&a▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Wood quarry radius button title: '&b۞ &lALAN&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Ahşap kesme alanını arttırır.'
+  - '&b▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&b▪ &7Yükseltmeler hızı etkilemez!'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Wood quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Ahşap kesme hızını arttırır.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Ahşap kesme hızını arttırır.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Ahşap kesme hızını arttırır.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Ahşap kesme hızını arttırır.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Ahşap kesme hızını arttırır.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lORTAE&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Ahşap kesme alanını arttırır.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lGENİŞ&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Ahşap kesme alanını arttırır.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lFERAH&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Ahşap kesme alanını arttırır.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lBÜYÜK&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Ahşap kesme alanını arttırır.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lSONSUZ&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Ahşap kesme alanını arttırır.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  BALIK OCAĞI  ║
+# ╚═══════════════╝
+
+Fish quarry title: '&b☄ &b&lBALIK QUARRY&r &b☄'
+Fish quarry lore:
+  - '&8Denizden balık ve atıkları yakalar.'
+  - '&8Çalışması için &b3x3&8''lük bir havuza ve'
+  - '&8üstünde olan bir quarry olmalı!'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lŞANS'
+  - '&d+ &d&lBONUS'
+Fish quarry shop lore:
+  - '&8Denizden balık ve atıkları yakalar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lŞANS'
+  - '&d+ &d&lBONUS'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lBALIK QUARRY&r &b☄'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Fish quarry status activated: '&a&l[AKTİF]'
+Fish quarry status disabled: '&c&l[DE-AKTİF]'
+
+Fish quarry inventory title: '         &4☄ &4&lBALIK QUARRY&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Yakalama hızını arttırır!'
+  - '&a▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir!'
+
+Fish quarry luck button title: '&6✪ &lŞANS&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Eşya yakalama şansını arttırır!'
+  - '&6▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&6▪ &7Yükseltmeler yakalama hızını etkilemez!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUS&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Denizden nadir eşyalar çıkarma şansını arttırır!'
+  - '&d▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&d▪ &7Yükseltmeler yakıt tüketimini etkilemez!'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Fish quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Yakalama hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Yakalama hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Yakalama hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Yakalama hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Yakalama hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ÇAYLAK ŞANSI İYİ GÜNÜNDE ŞANSLI ZEKİ KADERİ ŞANSLI
+Fish quarry luck item 1 title: '%selected%&a&lÇAYLAK ŞANSI&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Eşya yakalama şansını arttırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lİYİ GÜNÜNDE&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Eşya yakalama şansını arttırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lŞANSLI&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Eşya yakalama şansını arttırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lZEKİ&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Eşya yakalama şansını arttırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lKADERİ ŞANSLI&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Eşya yakalama şansını arttırır!'
+  - '&7Eğer, daha yüksek şans seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSÜPER'
+Fish quarry bonuses item 1 lore:
+  - '&7Denizden nadir eşyalar çıkarma şansını arttırır!'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕0.5&b&l] ELMAS'
+  - '&a&l[&r&f✕0.8&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕2&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEKSTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Denizden nadir eşyalar çıkarma şansını arttırır!'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕0.7&b&l] ELMAS'
+  - '&a&l[&r&f✕1&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕3&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lULTİMATE'
+Fish quarry bonuses item 3 lore:
+  - '&7Denizden nadir eşyalar çıkarma şansını arttırır!'
+  - '&7Eğer, daha yüksek bonus seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '&b&l[&r&f✕1&b&l] ELMAS'
+  - '&a&l[&r&f✕1.4&a&l] ZÜMRÜT'
+  - '&6&l[&r&f✕5&6&l] ALTIN PARÇASI'
+  - '%price tag%'
+
+
+# ╔══════════════╗
+# ║  MOB QUARRY  ║
+# ╚══════════════╝
+
+Mob quarry title: '&4➹ &4&lHAYVAN QUARRY&r &4➹'
+Mob quarry lore:
+  - '&8Hayvanları öldürür, eşyalarını ve tecrübelerini toplar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lALAN'
+  - '&d+ &d&lTP'
+Mob quarry shop lore:
+  - '&8Hayvanları öldürür, eşyalarını ve tecrübelerini toplar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lALAN'
+  - '&d+ &d&lTP'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lHAYVAN QUARRY&r &4➹'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Mob quarry status activated: '&a&l[AKTİF]'
+Mob quarry status disabled: '&c&l[DE-AKTİF]'
+
+Mob quarry inventory title: '         &4➹ &4&lHAYVAN QUARRY&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Öldürme hızını arttırır!'
+  - '&a▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir.'
+
+Mob quarry radius button title: '&b۞ &lALAN&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Öldürme alanını arttırır!'
+  - '&b▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&b▪ &7Yükseltmeler öldürme hızını etkilemez!'
+
+Mob quarry exp button title: '&d✦ &lTP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7Öldürülen hayvanların, tecrübeleri burada saklanır.'
+  - '&d▪ &7Tıklayarak biriken tecrübeleri alabilirsin.'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Mob quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Öldürme hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Öldürme hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Öldürme hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Öldürme hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Öldürme hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+# ORTA GENİŞ FERAH BÜYÜK SONSUZ
+Mob quarry radius item 1 title: '%selected%&a&lORTA&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Öldürme alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lGENİŞ&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Öldürme alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lFERAH&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Öldürme alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lBÜYÜK&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Öldürme alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lSONSUZ&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Öldürme alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ╔══════════════════╗
+# ║  ÇİFTLİK QUARRY  ║
+# ╚══════════════════╝
+
+Farm quarry title: '&a☀ &a&lÇİFTÇİ QUARRY&r &a☀'
+Farm quarry lore:
+  - '&8Bitkilerin toplar ve diker.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lALAN'
+  - '&2+ &2&lGÜBRE'
+  - '&3+ &3&lNEM'
+Farm quarry shop lore:
+  - '&8Bitkilerin toplar ve diker.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6+ &6&lALAN'
+  - '&2+ &2&lGÜBRELEYİCİ'
+  - '&3+ &3&lNEM'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lÇİFTÇİ QUARRY&r &a☀'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Farm quarry status activated: '&a&l[AKTİF]'
+Farm quarry status disabled: '&c&l[DE-AKTİF]'
+
+Farm quarry inventory title: '         &4☀ &4&lÇİFTÇİ QUARRY&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Increases the speed of harvesting and fertilizing crops!'
+  - '&a▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir.'
+
+Farm quarry radius button title: '&b۞ &lALAN&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Increases the radius of harvesting and fertilizing crops!'
+  - '&b▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&b▪ &7Yükseltmeler toplama hızını etkilemez!'
+
+Farm quarry fertilizer button title: '&2❀ &lGÜBRELEYİCİ&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7Gübreleyici varsa - bitkiyi az bir şansla şansı gübreler!'
+  - '&2▪ &7Gübreleme, bitkinin büyüme hızını artırır!'
+  - '&2▪ &7Gübreleyici zorunlu değildir!'
+  - '&a✔ &7Kalan: %fertilizer%'
+  - '&2▪ &7Tıkla ve &f1 Kemik Tozu &7karşılığında doldur!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lNEM&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7Gübreleyici varsa - bitkileri az bir şansla sular!'
+  - '&b▪ &7Sulama, bitkinin büyüme hızını artırır.'
+  - '&b▪ &7Su gerekli değildir!'
+  - '&a✔ &7Kalan: %humidity%'
+  - '&b▪ &7Tıkla ve &b1 Su Kovası &7karşılığında doldur!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Farm quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Increases the farming speed of the quarry.'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+# ORTA GENİŞ FERAH BÜYÜK SONSUZ
+Farm quarry radius item 1 title: '%selected%&a&lORTA&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lGENİŞ&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lFERAH&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lBÜYÜK&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lSONSUZ&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Increases the farming radius of the quarry.'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ╔═════════════╗
+# ║  TAŞ OCAĞI  ║
+# ╚═════════════╝
+
+Stone quarry title: '&7■ &7&lTAŞ QUARRY&r &7■'
+Stone quarry lore:
+  - '&8Altındaki 1 bloğu kırar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+Stone quarry shop lore:
+  - '&8Altındaki 1 bloğu kırar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lTAŞ QUARRY&r &7■'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Stone quarry status activated: '&a&l[AKTİF]'
+Stone quarry status disabled: '&c&l[DE-AKTİF]'
+
+Stone quarry inventory title: '        &4■ &4&lTAŞ QUARRY&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lHIZ&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&e▪ &7Kırık Taş çıkarma hızını artırır!'
+  - '&e▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir.'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Stone quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Kırık Taş çıkarma hızını artırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Kırık Taş çıkarma hızını artırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Kırık Taş çıkarma hızını artırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Kırık Taş çıkarma hızını artırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Kırık Taş çıkarma hızını artırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ╔═════════════╗
+# ║  YÜN OÇAĞI  ║
+# ╚═════════════╝
+
+Wool quarry title: '&d❦ &d&lYÜN QUARRY&r &d❦'
+Wool quarry lore:
+  - '&8Yakınında ki koyunların yünlerini kırpar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+Wool quarry shop lore:
+  - '&8Yakınında ki koyunların yünlerini kırpar.'
+  - '&8Çalışırken yakıt tüketir.'
+  - '&e☻ &f&lYÜKSELTMELER:'
+  - '&a+ &a&lHIZ'
+  - '&b+ &b&lALAN'
+  - '&6&l[&f&lSATIN AL&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lYÜN QUARRY&r &d❦'
+  - '&fSahibi: &a%player%'
+  - '&fDurumu: &a%status%'
+Wool quarry status activated: '&a&l[AKTİF]'
+Wool quarry status disabled: '&c&l[DE-AKTİF]'
+
+Wool quarry inventory title: '        &4❦ &4&lYÜN QUARRY&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lSPEED&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Koyun kırpma hızını arttırır!'
+  - '&e▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&a▪ &7Yükseltmeler yakıt tüketimini etkileyebilir.'
+
+Wool quarry radius button title: '&b۞ &lRADIUS&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&e▪ &7Tıklayarak yükseltmeyi satın alabilirsiniz!'
+  - '&b▪ &7Yükseltmeler kırpma hızını etkilemez!'
+
+
+# Değer ekleyebilir ve kaldırabilirsiniz
+# 1,2,3,4,5 -> Anahtarlar yapılandırmadandır, yapılandırmada 5 hız vardır ve 5 değer vardır. Aynı olmalı
+
+Wool quarry speed item 1 title: '%selected%&a&lÇEVİK&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Koyun kırpma hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lACELECİ&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Koyun kırpma hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lŞİPŞAK&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Koyun kırpma hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lYÜKSEK-HIZ&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Koyun kırpma hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lDURDURULAMAZ&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Koyun kırpma hızını arttırır!'
+  - '&7Eğer, daha yüksek hız seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lORTA&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lGENİŞ&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lFERAH&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lBÜYÜK&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lSONSUZ&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Koyun kırpma alanını arttırır!'
+  - '&7Eğer, daha yüksek alan seviyesi satın alırsanız,'
+  - '&7daha düşük bir hız seviyesine geçemezsiniz!'
+  - '%price tag%'
+
+
+# ╔═════════════════════╗
+# ║  YARDIM AÇIKLAMASI  ║
+# ╚═════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY KOMUTLARI: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY EKLENTİSİ - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fQuarry bloğu al:'
+  - '&a/quarry create <türü> &8- &a/quarry create <türü> <oyuncu>'
+  - '&2➩ &fQuarry marketini aç:'
+  - '&a/quarry shop'
+  - '&2➩ &fDeğiştiriciye eşya ekle:'
+  - '&a/quarry exchanger add <slot> <ücret>'
+  - '&2➩ &fDeğiştiriciden eşya sil:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fPage: &21&f/&22'
+Help lines 2:
+  - '&fSayfa: &22&f/&22'

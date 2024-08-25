@@ -1,0 +1,985 @@
+# ╔═══════════════════╗
+# ║  ОБЩИЕ СООБЩЕНИЯ  ║
+# ╚═══════════════════╝
+
+You dont have the permission: '&cУ вас нет необходимого разрешения!'
+You are not the player: '&cВы не игрок!'
+Player isnt exists: '&cИгрок не в сети!'
+Plugin reloaded: '&aПлагин перезагружен!'
+Havent enough money: '&cУ вас недостаточно денег!'
+Buying coins message: '&fВы купили &e&l%price%&6&l$&r &fна сумму фишек!'
+Limit of placed quarries: '&cВы достигли максимального количества установленных карьеров!'
+
+Quarry created: '&a&lКАРЬЕР СОЗДАН!'
+Quarry placed: '&e&lКАРЬЕР УСТАНОВЛЕН!'
+Quarry removed: '&c&lКАРЬЕР УДАЛЕН!'
+Quarry received: '&a&lВЫ ПОЛУЧИЛИ КАРЬЕР!'
+Quarry gave: '&e&lВЫ ПОЛУЧИЛИ КАРЬЕР ДЛЯ ИГРОКА!'
+Quarry already opened: '&cКарьер уже открыт другим игроком'
+Quarry filling: '&aВы заполнили карьер!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[НЕ МОЖЕТ БЫТЬ КУПЛЕНО]'
+
+
+# ╔══════════════════════╗
+# ║  МАГАЗИН & ОБМЕННИК  ║
+# ╚══════════════════════╝
+
+Quarry shop title: '             &2⛃ &lМАГАЗИН&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lОБМЕННИК&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Обменивайте ресурсы на валюту!'
+Quarry exchanger title: '          &5❂ &lОБМЕННИК&r &5❂'
+Quarry exchanger balance title: '&f&lБАЛАНС&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fНовый предмет добавлен в обменник!'
+Quarry exchanger item removed: '&fПредмет удален из обменника!'
+Quarry exchanger item lore:
+  - '&7Цена: &e%price% &6⛃'
+
+
+# ╔════════════════╗
+# ║  ОБЩИЕ КНОПКИ  ║
+# ╚════════════════╝
+
+Quarry fuel title: '&e☢ &lТОПЛИВО&r &e☢'
+Quarry fuel lore:
+  - '&7Топливо необходимо для работы карьера!'
+  - '&a✔ &7Осталось: %fuel%'
+  - '&7Если топливо закончится - машина остановится!'
+  - '&7Нажмите &c4 угля &7для заправки!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lВЫКЛЮЧИТЬ ДВИГАТЕЛЬ'
+Quarry start title disabled: '&e&lВКЛЮЧИТЬ ДВИГАТЕЛЬ'
+Quarry start lore:
+  - '&7Запускает, выключает двигатель!'
+  - '&7Потребляет топливо при включении!'
+
+Quarry storage gui title: '             &b&lСКЛАД'
+Quarry storage title: '&b&lСКЛАД'
+Quarry storage lore:
+  - '&7Здесь вы можете забрать добытые ресурсы!'
+  - '&7Если вы попытаетесь сломать карьер без'
+  - '&7забора ресурсов, они выпадут!'
+
+Quarry owner title open: '&e&lОТКРЫТО'
+Quarry owner title closed: '&c&lЗАКРЫТО'
+Quarry owner lore:
+  - '&7Владелец: &e%player%'
+  - '&7Нажмите, чтобы позволить другим игрокам открыть карьер.'
+  - '&7Или не допустить его открытия!'
+
+Quarry speed gui title: '             &a➠ &a&lСКОРОСТЬ&r &a➠'
+Quarry radius gui title: '            &b۞ &lРАДИУС&r &b۞'
+Quarry luck gui title: '              &6✪ &lУДАЧА&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lБОНУСЫ&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lШЕЛКОВЫЙ КАСАНИЕ&r &e✦'
+
+
+# ╔═════════════════╗
+# ║  РУДНЫЙ КАРЬЕР  ║
+# ╚═════════════════╝
+
+Ore quarry title: '&c⛏ &c&lРУДНЫЙ КАРЬЕР&r &c⛏'
+Ore quarry lore:
+  - '&8Добывает руду в определенном радиусе.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+  - '&6+ &6&lУДАЧА'
+  - '&d+ &d&lБОНУСЫ'
+  - '&e+ &e&lШЕЛКОВЫЙ КАСАНИЕ'
+Ore quarry shop lore:
+  - '&8Добывает руду в определенном радиусе.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+  - '&6+ &6&lУДАЧА'
+  - '&d+ &d&lБОНУСЫ'
+  - '&e+ &e&lШЕЛКОВЫЙ КАСАНИЕ'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lРУДНЫЙ КАРЬЕР&r &c⛏'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Ore quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Ore quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Ore quarry inventory title: '         &4⛏ &4&lРУДНЫЙ КАРЬЕР&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость добычи ресурсов!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Ore quarry radius button title: '&b۞ &lРАДИУС&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Увеличивает радиус добычи ресурсов!'
+  - '&b▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&b▪ &7Улучшения не влияют на скорость!'
+
+Ore quarry luck button title: '&6✪ &lУДАЧА&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Увеличивает удачу при добыче определенных руд!'
+  - '&6▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&6▪ &7Улучшения не влияют на скорость!'
+
+Ore quarry bonuses button title: '&d⛃ &lБОНУСЫ&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Позволяет с некоторым шансом получить редкие кристаллы среди руды!'
+  - '&d▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&d▪ &7Улучшения не влияют на потребление топлива!'
+
+Ore quarry silktouch button title: '&e✦ &lШЕЛКОВЫЙ КАСАНИЕ&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Позволяет добывать уголь, алмазную руду и др.!'
+  - '&e▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&e▪ &7Включенный режим отключает бонусы и удачу!'
+  - '&eМожет быть отключено!'
+Ore quarry silktouch button value activated: '&a&l[АКТИВИРОВАНО]'
+Ore quarry silktouch button value disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Ore quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lШИРОКИЙ&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Увеличивает радиус добычи карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lПРОСТОРНЫЙ&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Увеличивает радиус добычи карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lШИРОКОМАСШТАБНЫЙ&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Увеличивает радиус добычи карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lОГРОМНЫЙ&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Увеличивает радиус добычи карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lНЕОХВАТНЫЙ&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Увеличивает радиус добычи карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lВЫГОДНЫЙ&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Увеличивает удачу при добыче карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lЖЕЛАННЫЙ&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Увеличивает удачу при добыче карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lУДАЧЛИВЫЙ&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Увеличивает удачу при добыче карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lПЛОДОТВОРНЫЙ&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Увеличивает удачу при добыче карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lПОЖЕЛАННЫЙ&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Увеличивает удачу при добыче карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lСУПЕР'
+Ore quarry bonuses item 1 lore:
+  - '&7Добавляет шанс получить дополнительные ресурсы при добыче.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕0.5&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕0.8&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕2&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lДОПОЛНИТЕЛЬНЫЙ'
+Ore quarry bonuses item 2 lore:
+  - '&7Добавляет шанс получить дополнительные ресурсы при добыче.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕0.7&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕1&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕3&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lУДИВИТЕЛЬНЫЙ'
+Ore quarry bonuses item 3 lore:
+  - '&7Добавляет шанс получить дополнительные ресурсы при добыче.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕1&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕1.4&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕5&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lШЕЛКОВЫЙ КАСАНИЕ'
+Ore quarry silktouch item 1 lore:
+  - '&7Позволяет добывать руды без выпадения кристаллов.'
+  - '&7Вы можете включить и выключить режим в главном меню!'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25000 &6⛃'
+
+
+# ╔════════════════════╗
+# ║  ДРЕВЕСНЫЙ КАРЬЕР  ║
+# ╚════════════════════╝
+
+Wood quarry title: '&e♣ &e&lДРЕВЕСНЫЙ КАРЬЕР&r &e♣'
+Wood quarry lore:
+  - '&8Рубит деревья в определенном радиусе.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+Wood quarry shop lore:
+  - '&8Рубит деревья в определенном радиусе.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lДРЕВЕСНЫЙ КАРЬЕР&r &e♣'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Wood quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Wood quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Wood quarry inventory title: '         &4♣ &4&lДРЕВЕСНЫЙ КАРЬЕР&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость добычи древесины!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Wood quarry radius button title: '&b۞ &lРАДИУС&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Увеличивает радиус добычи древесины!'
+  - '&b▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&b▪ &7Улучшения не влияют на скорость!'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Wood quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Увеличивает скорость добычи древесины.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Увеличивает скорость добычи древесины.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Увеличивает скорость добычи древесины.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Увеличивает скорость добычи древесины.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Увеличивает скорость добычи древесины.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lШИРОКИЙ&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Увеличивает радиус добычи древесины.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lПРОСТОРНЫЙ&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Увеличивает радиус добычи древесины.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lШИРОКОМАСШТАБНЫЙ&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Увеличивает радиус добычи древесины.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lОГРОМНЫЙ&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Увеличивает радиус добычи древесины.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lНЕОХВАТНЫЙ&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Увеличивает радиус добычи древесины.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+
+
+# ╔═════════════════════╗
+# ║  РЫБОЛОВНЫЙ КАРЬЕР  ║
+# ╚═════════════════════╝
+
+Fish quarry title: '&b☄ &b&lРЫБОЛОВНЫЙ КАРЬЕР&r &b☄'
+Fish quarry lore:
+  - '&8Ловит рыбу и предметы из глубин.'
+  - '&8Для работы нужен &b3 на 3 &8бассейн и'
+  - '&8карьер сверху в центре!'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lУДАЧА'
+  - '&d+ &d&lБОНУСЫ'
+Fish quarry shop lore:
+  - '&8Ловит рыбу и предметы из глубин.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lУДАЧА'
+  - '&d+ &d&lБОНУСЫ'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lРЫБОЛОВНЫЙ КАРЬЕР&r &b☄'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Fish quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Fish quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Fish quarry inventory title: '         &4☄ &4&lРЫБОЛОВНЫЙ КАРЬЕР&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость рыбалки!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Fish quarry luck button title: '&6✪ &lУДАЧА&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Увеличивает шанс поймать предмет!'
+  - '&6▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&6▪ &7Улучшения не влияют на скорость!'
+
+Fish quarry bonuses button title: '&d⛃ &lБОНУСЫ&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Позволяет ловить редкие предметы из глубин!'
+  - '&d▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&d▪ &7Улучшения не влияют на потребление топлива!'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Fish quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Увеличивает скорость ловли карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Увеличивает скорость ловли карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Увеличивает скорость ловли карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Увеличивает скорость ловли карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Увеличивает скорость ловли карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lВЫГОДНЫЙ&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Увеличивает удачу при ловле карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lЖЕЛАННЫЙ&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Увеличивает удачу при ловле карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lУДАЧЛИВЫЙ&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Увеличивает удачу при ловле карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lПЛОДОТВОРНЫЙ&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Увеличивает удачу при ловле карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lПОЖЕЛАННЫЙ&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Увеличивает удачу при ловле карьера.'
+  - '&7Если вы купите большую удачу,'
+  - '&7вы не сможете выбрать меньшую.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lСУПЕР'
+Fish quarry bonuses item 1 lore:
+  - '&7Добавляет шанс получить ценные предметы при ловле.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕0.5&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕0.8&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕2&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lДОПОЛНИТЕЛЬНЫЙ'
+Fish quarry bonuses item 2 lore:
+  - '&7Добавляет шанс получить ценные предметы при ловле.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕0.7&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕1&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕3&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lУДИВИТЕЛЬНЫЙ'
+Fish quarry bonuses item 3 lore:
+  - '&7Добавляет шанс получить ценные предметы при ловле.'
+  - '&7Если вы купите более высокие бонусы,'
+  - '&7вы не сможете выбрать более низкие.'
+  - '&b&l[&r&f✕1&b&l] АЛМАЗ'
+  - '&a&l[&r&f✕1.4&a&l] ИЗУМРУД'
+  - '&6&l[&r&f✕5&6&l] ЗОЛОТОЙ САМОРОДОК'
+  - '%price tag%'
+
+
+# ╔══════════════╗
+# ║  МОБ КАРЬЕР  ║
+# ╚══════════════╝
+
+Mob quarry title: '&4➹ &4&lМОБ КАРЬЕР&r &4➹'
+Mob quarry lore:
+  - '&8Убивает существ и собирает добычу и опыт.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lРАДИУС'
+  - '&d+ &d&lОПЫТ'
+Mob quarry shop lore:
+  - '&8Убивает существ и собирает добычу и опыт.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lРАДИУС'
+  - '&d+ &d&lОПЫТ'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lМОБ КАРЬЕР&r &4➹'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Mob quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Mob quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Mob quarry inventory title: '         &4➹ &4&lМОБ КАРЬЕР&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость убийства существ!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Mob quarry radius button title: '&b۞ &lРАДИУС&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Увеличивает радиус убийства существ!'
+  - '&b▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&b▪ &7Улучшения не влияют на скорость!'
+
+Mob quarry exp button title: '&d✦ &lОПЫТ&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7При убийстве существ накапливается опыт!'
+  - '&d▪ &7Вы можете собирать его, нажав на значок!'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Mob quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Увеличивает скорость убийства карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Увеличивает скорость убийства карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Увеличивает скорость убийства карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Увеличивает скорость убийства карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Увеличивает скорость убийства карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lШИРОКИЙ&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Увеличивает радиус убийства карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lПРОСТОРНЫЙ&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Увеличивает радиус убийства карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lШИРОКОМАСШТАБНЫЙ&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Увеличивает радиус убийства карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lОГРОМНЫЙ&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Увеличивает радиус убийства карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lНЕОХВАТНЫЙ&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Увеличивает радиус убийства карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+
+
+# ╔═════════════════════╗
+# ║  ФЕРМЕРСКИЙ КАРЬЕР  ║
+# ╚═════════════════════╝
+
+Farm quarry title: '&a☀ &a&lФЕРМЕРСКИЙ КАРЬЕР&r &a☀'
+Farm quarry lore:
+  - '&8Собирает и сажает растения.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lРАДИУС'
+  - '&2+ &2&lУДОБРЕНИЕ'
+  - '&3+ &3&lВЛАЖНОСТЬ'
+Farm quarry shop lore:
+  - '&8Собирает и сажает растения.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6+ &6&lРАДИУС'
+  - '&2+ &2&lУДОБРЕНИЕ'
+  - '&3+ &3&lВЛАЖНОСТЬ'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lФЕРМЕРСКИЙ КАРЬЕР&r &a☀'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Farm quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Farm quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Farm quarry inventory title: '         &4☀ &4&lФЕРМЕРСКИЙ КАРЬЕР&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость сбора и удобрения урожая!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Farm quarry radius button title: '&b۞ &lРАДИУС&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Увеличивает радиус сбора и удобрения урожая!'
+  - '&b▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&b▪ &7Улучшения не влияют на скорость!'
+
+Farm quarry fertilizer button title: '&2❀ &lУДОБРЕНИЕ&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7Если есть удобрение - дает шанс удобрить растение!'
+  - '&2▪ &7Удобрение увеличивает скорость роста растения!'
+  - '&2▪ &7Удобрение не требуется!'
+  - '&a✔ &7Осталось: %fertilizer%'
+  - '&2▪ &7Нажмите &f1 Костная мука &7для заправки!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lВЛАЖНОСТЬ&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7Если есть удобрение - дает шанс полить растение!'
+  - '&b▪ &7Вода увеличивает скорость роста растения.'
+  - '&b▪ &7Вода не требуется!'
+  - '&a✔ &7Осталось: %humidity%'
+  - '&b▪ &7Нажмите &b1 Ведро воды &7для заправки!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Farm quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Увеличивает скорость работы карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Увеличивает скорость работы карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Увеличивает скорость работы карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Увеличивает скорость работы карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Увеличивает скорость работы карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lШИРОКИЙ&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Увеличивает радиус работы карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lПРОСТОРНЫЙ&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Увеличивает радиус работы карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lШИРОКОМАСШТАБНЫЙ&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Увеличивает радиус работы карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lОГРОМНЫЙ&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Увеличивает радиус работы карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lНЕОХВАТНЫЙ&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Увеличивает радиус работы карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+
+
+# ╔═══════════════════╗
+# ║  КАМЕННЫЙ КАРЬЕР  ║
+# ╚═══════════════════╝
+
+Stone quarry title: '&7■ &7&lКАМЕННЫЙ КАРЬЕР&r &7■'
+Stone quarry lore:
+  - '&8Разрушает 1 блок под собой.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+Stone quarry shop lore:
+  - '&8Разрушает 1 блок под собой.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lКАМЕННЫЙ КАРЬЕР&r &7■'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Stone quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Stone quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Stone quarry inventory title: '        &4■ &4&lКАМЕННЫЙ КАРЬЕР&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость добычи булыжника!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Stone quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Увеличивает скорость добычи булыжника!'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Увеличивает скорость добычи карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+# ╔════════════════════╗
+# ║  ШЕРСТЯНОЙ КАРЬЕР  ║
+# ╚════════════════════╝
+
+Wool quarry title: '&d❦ &d&lШЕРСТЯНОЙ КАРЬЕР&r &d❦'
+Wool quarry lore:
+  - '&8Стрижет овец вокруг.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+Wool quarry shop lore:
+  - '&8Стрижет овец вокруг.'
+  - '&8Потребляет топливо во время работы.'
+  - '&e☻ &f&lУЛУЧШЕНИЯ:'
+  - '&a+ &a&lСКОРОСТЬ'
+  - '&b+ &b&lРАДИУС'
+  - '&6&l[&f&lНАЖМИТЕ ДЛЯ ПОКУПКИ&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lШЕРСТЯНОЙ КАРЬЕР&r &d❦'
+  - '&fВладелец: &a%player%'
+  - '&fСтатус: &a%status%'
+Wool quarry status activated: '&a&l[АКТИВИРОВАНО]'
+Wool quarry status disabled: '&c&l[ДЕАКТИВИРОВАНО]'
+
+Wool quarry inventory title: '        &4❦ &4&lШЕРСТЯНОЙ КАРЬЕР&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lСКОРОСТЬ&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Увеличивает скорость стрижки овец!'
+  - '&a▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&a▪ &7Улучшения влияют на потребление топлива!'
+
+Wool quarry radius button title: '&b۞ &lРАДИУС&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7Увеличивает радиус стрижки овец!'
+  - '&b▪ &7Вы можете купить улучшения, нажав на значок!'
+  - '&b▪ &7Улучшения не влияют на скорость!'
+
+
+# Вы можете добавлять и удалять значения
+# 1,2,3,4,5 -> Ключи из конфига, в конфиге есть 5 скоростей и 5 значений. Должны быть одинаковыми
+
+Wool quarry speed item 1 title: '%selected%&a&lЛОВКИЙ&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Увеличивает скорость стрижки карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lБЫСТРЫЙ&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Увеличивает скорость стрижки карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lМГНОВЕННЫЙ&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Увеличивает скорость стрижки карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lУЛЬТРА-БЫСТРЫЙ&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Увеличивает скорость стрижки карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lМОЛНИЕНОСНЫЙ&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Увеличивает скорость стрижки карьера.'
+  - '&7Если вы купите более высокую скорость,'
+  - '&7вы не сможете выбрать более низкую.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lШИРОКИЙ&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Увеличивает радиус стрижки карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lПРОСТОРНЫЙ&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Увеличивает радиус стрижки карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lШИРОКОМАСШТАБНЫЙ&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Увеличивает радиус стрижки карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lОГРОМНЫЙ&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Увеличивает радиус стрижки карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lНЕОХВАТНЫЙ&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Увеличивает радиус стрижки карьера.'
+  - '&7Если вы купите больший радиус,'
+  - '&7вы не сможете выбрать меньший.'
+  - '%price tag%'
+
+
+# ╔═══════════════════╗
+# ║  ОПИСАНИЕ ПОМОЩИ  ║
+# ╚═══════════════════╝
+
+Wrong command: '&2&l[&a&lКАРЬЕР&2&l] &f&lКОМАНДЫ КАРЬЕРА: &r&a/quarry help'
+Help title: '&2&l[&a&lКАРЬЕР&2&l] &f&lПЛАГИН КАРЬЕРА - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fПолучить блок карьера:'
+  - '&a/quarry create <type> &for &a/quarry create <type> <player>'
+  - '&2➩ &fОткрывает магазин карьеров:'
+  - '&a/quarry shop'
+  - '&2➩ &fДобавить предмет в обменник:'
+  - '&a/quarry exchanger add <slot> <price>'
+  - '&2➩ &fУдалить предмет из обменника:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fСтраница: &21&f/&22'
+Help lines 2:
+  - '&fСтраница: &22&f/&22'
+#M1bLhzMuZ2V2AnV0MWSYdHTvJjV0kFVOh3aE1EejRUTwkkMO10Y0hVQHhjWxsmYGNnSqFEO

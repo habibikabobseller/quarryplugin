@@ -1,0 +1,984 @@
+# ╔════════════════════╗
+# ║  GENERAL MESSAGES  ║
+# ╚════════════════════╝
+
+You dont have the permission: '&cNie posiadasz wymaganych uprawnien!'
+You are not the player: '&cNie jestes graczem!'
+Player isnt exists: '&cGracz jest offline!'
+Plugin reloaded: '&aPrzeladowano plugin!'
+Havent enough money: '&cNie masz wystarczajaco pieniedzy!'
+Buying coins message: '&fKupiono monety o wartosci&e&l%price%&6&l$&r!'
+Limit of placed quarries: '&cOsiagnieto maksymalna ilosc postawionych kamieniolomow!'
+
+Quarry created: '&a&lSTWORZONO QUARRY!'
+Quarry placed: '&e&lPOSTAWIONO QUARRY!'
+Quarry removed: '&c&lUSUNIETO QUARRY!'
+Quarry received: '&a&lOTRZYMANO QUARRY!'
+Quarry gave: '&e&lWYSLANO QUARRY DO GRACZA!'
+Quarry already opened: '&cQuarry jest juz otwarty przez innego gracza'
+Quarry filling: '&aWypelniono Quarry!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[NIE MOZNA KUPIC]'
+
+
+# ╔════════════════════╗
+# ║  SHOP & EXCHANGER  ║
+# ╚════════════════════╝
+
+Quarry shop title: '             &2⛃ &lSKLEP&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lKANTOR&r &2⛃'
+Quarry exchanger button lore:
+  - '&7Wymien zasoby za monety!'
+Quarry exchanger title: '          &5❂ &lKANTOR&r &5❂'
+Quarry exchanger balance title: '&f&lSTAN KONTA&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&fDodano nowy przedmiot do kantora!'
+Quarry exchanger item removed: '&fUsunieto przedmiot z kantora!'
+Quarry exchanger item lore:
+  - '&7Cena: &e%price% &6⛃'
+
+
+# ╔═══════════════════╗
+# ║  GENERAL BUTTONS  ║
+# ╚═══════════════════╝
+
+Quarry fuel title: '&e☢ &lPALIWO&r &e☢'
+Quarry fuel lore:
+  - '&7Paliwo jest niezbedne dla quarry aby dzialal!'
+  - '&a✔ &7Pozostalo: %fuel%'
+  - '&7Jesli zabraknie paliwa - maszyna przestanie dzialac!'
+  - '&7Kliknij &c4 Wegiel &7aby zatankowac!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lWYLACZ SILNIK'
+Quarry start title disabled: '&e&lWLACZ SILNIK'
+Quarry start lore:
+  - '&7Uruchamia, wylacza silnik!'
+  - '&7Pobiera paliwo kiedy wlaczony!'
+
+Quarry storage gui title: '             &b&lMAGAZYN'
+Quarry storage title: '&b&lMAGAZYN'
+Quarry storage lore:
+  - '&7Tutaj można odebrac wydobyte zasoby!'
+  - '&7Kiedy sprobujesz rozbic quarry bez'
+  - '&7odbierania zasobow, wypadna!'
+
+Quarry owner title open: '&e&lOTWARTE'
+Quarry owner title closed: '&c&lZAMKNIETE'
+Quarry owner lore:
+  - '&7Wlasciciel: &e%player%'
+  - '&7Kliknij, aby umozliwic innym graczom otwarcie quarry.'
+  - '&7Albo nie byc w stanie otworzyc!'
+
+Quarry speed gui title: '             &a➠ &a&lPREDKOSC&r &a➠'
+Quarry radius gui title: '            &b۞ &lZASIEG&r &b۞'
+Quarry luck gui title: '              &6✪ &lSZCZESCIE&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBONUSY&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lJEDWABNY DOTYK&r &e✦'
+
+
+# ╔══════════════╗
+# ║  ORE QUARRY  ║
+# ╚══════════════╝
+
+Ore quarry title: '&c⛏ &c&lORE QUARRY&r &c⛏'
+Ore quarry lore:
+  - '&8Wydobywa rude w okreslonym zasiegu.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+  - '&6+ &6&lSZCZESCIE'
+  - '&d+ &d&lBONUSY'
+  - '&e+ &e&lJEDWABNY DOTYK'
+Ore quarry shop lore:
+  - '&8Wydobywa rude w okreslonym zasiegu.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+  - '&6+ &6&lSZCZESCIE'
+  - '&d+ &d&lBONUSY'
+  - '&e+ &e&lJEDWABNY DOTYK'
+  - '&6&l[&f&lKLIKNIJ ABY ZAKUPIC&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lORE QUARRY&r &c⛏'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Ore quarry status activated: '&a&l[AKTYWNY]'
+Ore quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Ore quarry inventory title: '         &4⛏ &4&lORE QUARRY&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lPredkosc&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7Przyspiesza wydobywanie zasobow!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia nie wplywaja na zuzycie paliwa!'
+
+Ore quarry radius button title: '&b۞ &lZASIEG&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7Zwieksza zasieg wydobycia zasobow!'
+  - '&b▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&b▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+Ore quarry luck button title: '&6✪ &lSZCZESCIE&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7Zwieksza szczescie podczas wydobywania niektorych rud!'
+  - '&6▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&6▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+Ore quarry bonuses button title: '&d⛃ &lBONUSY&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7Pozwala zdobyc rzadkie krysztaly wsrod rudy z pewna szansa.!'
+  - '&d▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&d▪ &7Ulepszenia nie wplywaja na zuzycie paliwa!'
+
+Ore quarry silktouch button title: '&e✦ &lJEDWABNY DOTYK&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7Umozliwia wydobywanie wegla, rudy diamentu itp.!'
+  - '&e▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&e▪ &7Wlaczony wylacza premie i szczescie!'
+  - '&emoze byc wylaczony!'
+Ore quarry silktouch button value activated: '&a&l[AKTYWNY]'
+Ore quarry silktouch button value disabled: '&c&l[NIEAKTYWNY]'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Ore quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Zwieksza predkosc wydobycia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Zwieksza predkosc wydobycia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Zwieksza predkosc wydobycia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Zwieksza predkosc wydobycia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Zwieksza predkosc wydobycia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Zwieksza promien wydobycia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Zwieksza promien wydobycia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Zwieksza promien wydobycia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Zwieksza promien wydobycia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Zwieksza promien wydobycia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lADVANTAGEOUS&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Zwieksza szczescie wydobywcze quarry.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lDESIRED&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Zwieksza szczescie wydobywcze quarry.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lSZCZESCIEY&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Zwieksza szczescie wydobywcze quarry.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lPROLIFIC&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Zwieksza szczescie wydobywcze quarry.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lEXACTED BY FATE&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Zwieksza szczescie wydobywcze quarry.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Daje szanse na zdobycie dodatkowych zasobow podczas kopania.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMENT'
+  - '&a&l[&r&f✕0.8&a&l] EMERALD'
+  - '&6&l[&r&f✕2&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Daje szanse na zdobycie dodatkowych zasobow podczas kopania.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMENT'
+  - '&a&l[&r&f✕1&a&l] EMERALD'
+  - '&6&l[&r&f✕3&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lULTIMATE'
+Ore quarry bonuses item 3 lore:
+  - '&7Daje szanse na zdobycie dodatkowych zasobow podczas kopania.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕1&b&l] DIAMENT'
+  - '&a&l[&r&f✕1.4&a&l] EMERALD'
+  - '&6&l[&r&f✕5&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lJEDWABNY DOTYK'
+Ore quarry silktouch item 1 lore:
+  - '&7Umozliwia wydobywanie rud bez wybijania krysztalow.'
+  - '&7Tryb mozna wlaczac i wylaczac w menu glownym!'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25000 &6⛃'
+
+
+# ╔═══════════════╗
+# ║  WOOD QUARRY  ║
+# ╚═══════════════╝
+
+Wood quarry title: '&e♣ &e&lWOOD QUARRY&r &e♣'
+Wood quarry lore:
+  - '&8Wycina drzewa w okreslonym promieniu.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+Wood quarry shop lore:
+  - '&8Wycina drzewa w okreslonym promieniu.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lWOOD QUARRY&r &e♣'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Wood quarry status activated: '&a&l[AKTYWNY]'
+Wood quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Wood quarry inventory title: '         &4♣ &4&lWOOD QUARRY&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7Zwieksza szybkosc ekstrakcji drewna!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+Wood quarry radius button title: '&b۞ &lZASIEG&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7Zwieksza zasieg ekstrakcji drewna!'
+  - '&b▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&b▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Wood quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Zwieksza predkosc ciecia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Zwieksza predkosc ciecia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Zwieksza predkosc ciecia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Zwieksza predkosc ciecia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Zwieksza predkosc ciecia w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Zwieksza promien ciecia w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Zwieksza promien ciecia w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Zwieksza promien ciecia w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Zwieksza promien ciecia w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Zwieksza promien ciecia w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  FISH QUARRY  ║
+# ╚═══════════════╝
+
+Fish quarry title: '&b☄ &b&lFISH QUARRY&r &b☄'
+Fish quarry lore:
+  - '&8Lowi ryby i przedmioty z glebin.'
+  - '&8Do dzialania potrzebne jest &b3 na 3 &8woda i'
+  - '&8kamieniolom na gorze w centrum!'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lSZCZESCIE'
+  - '&d+ &d&lBONUSY'
+Fish quarry shop lore:
+  - '&8Lowi ryby i przedmioty z glebin.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lSZCZESCIE'
+  - '&d+ &d&lBONUSY'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lFISH QUARRY&r &b☄'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Fish quarry status activated: '&a&l[AKTYWNY]'
+Fish quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Fish quarry inventory title: '         &4☄ &4&lFISH QUARRY&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7Zwieksza predkosc lowienia!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+Fish quarry luck button title: '&6✪ &lSZCZESCIE&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7Zwieksza szanse na zlapanie przedmiotu!'
+  - '&6▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&6▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUSY&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7Pozwala wylawiac rzadkie przedmioty z glebin!'
+  - '&d▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&d▪ &7Ulepszenia nie wplywaja na zuzycie paliwa!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Fish quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Zwieksza szybkosc lapania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Zwieksza szybkosc lapania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Zwieksza szybkosc lapania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Zwieksza szybkosc lapania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Zwieksza szybkosc lapania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lADVANTAGEOUS&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Zwieksza szczescie lowienia w kamieniolomach.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lDESIRED&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Zwieksza szczescie lowienia w kamieniolomach.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lSZCZESCIEY&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Zwieksza szczescie lowienia w kamieniolomach.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lPROLIFIC&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Zwieksza szczescie lowienia w kamieniolomach.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lEXACTED BY FATE&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Zwieksza szczescie lowienia w kamieniolomach.'
+  - '&7Jesli kupisz wyzszy poziom szczescia, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSUPER'
+Fish quarry bonuses item 1 lore:
+  - '&7Dodaje szanse na zdobycie cennych przedmiotow podczas lowienia ryb.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMENT'
+  - '&a&l[&r&f✕0.8&a&l] EMERALD'
+  - '&6&l[&r&f✕2&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Dodaje szanse na zdobycie cennych przedmiotow podczas lowienia ryb.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMENT'
+  - '&a&l[&r&f✕1&a&l] EMERALD'
+  - '&6&l[&r&f✕3&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lULTIMATE'
+Fish quarry bonuses item 3 lore:
+  - '&7Dodaje szanse na zdobycie cennych przedmiotow podczas lowienia ryb.'
+  - '&7Jesli kupisz wyzsze bonusy, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '&b&l[&r&f✕1&b&l] DIAMENT'
+  - '&a&l[&r&f✕1.4&a&l] EMERALD'
+  - '&6&l[&r&f✕5&6&l] ZLOZE ZLOTA'
+  - '%price tag%'
+
+
+# ╔══════════════╗
+# ║  MOB QUARRY  ║
+# ╚══════════════╝
+
+Mob quarry title: '&4➹ &4&lMOB QUARRY&r &4➹'
+Mob quarry lore:
+  - '&8Zabija stworzenia i zbiera lupy oraz doswiadczenie.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lZASIEG'
+  - '&d+ &d&lEXP'
+Mob quarry shop lore:
+  - '&8Zabija stworzenia i zbiera lupy oraz doswiadczenie.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lZASIEG'
+  - '&d+ &d&lEXP'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lMOB QUARRY&r &4➹'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Mob quarry status activated: '&a&l[AKTYWNY]'
+Mob quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Mob quarry inventory title: '         &4➹ &4&lMOB QUARRY&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7Zwieksza szybkosc zabijania stworzen!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+Mob quarry radius button title: '&b۞ &lZASIEG&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7Zwieksza promien zabijania stworzen!'
+  - '&b▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&b▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+Mob quarry exp button title: '&d✦ &lEXP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7Podczas zabijania stworzen gromadzone jest doswiadczenie!'
+  - '&d▪ &7Mozesz je odebrac, klikajac na ikone!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Mob quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Zwieksza szybkosc zabijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Zwieksza szybkosc zabijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Zwieksza szybkosc zabijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Zwieksza szybkosc zabijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Zwieksza szybkosc zabijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Zwieksza promien zabojstwa w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Zwieksza promien zabojstwa w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Zwieksza promien zabojstwa w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Zwieksza promien zabojstwa w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Zwieksza promien zabojstwa w quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  FARM QUARRY  ║
+# ╚═══════════════╝
+
+Farm quarry title: '&a☀ &a&lFARM QUARRY&r &a☀'
+Farm quarry lore:
+  - '&8Zbieranie i sadzenie roslin.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lZASIEG'
+  - '&2+ &2&lNAWOZENIE'
+  - '&3+ &3&lWILGOTNOSC'
+Farm quarry shop lore:
+  - '&8Zbieranie i sadzenie roslin.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6+ &6&lZASIEG'
+  - '&2+ &2&lNAWOZENIE'
+  - '&3+ &3&lWILGOTNOSC'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lFARM QUARRY&r &a☀'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Farm quarry status activated: '&a&l[AKTYWNY]'
+Farm quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Farm quarry inventory title: '         &4☀ &4&lFARM QUARRY&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7Zwieksza szybkosc zbiorow i nawozenia upraw!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+Farm quarry radius button title: '&b۞ &lZASIEG&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7Zwieksza zasieg zbiorow i nawozenia upraw!'
+  - '&b▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&b▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+Farm quarry fertilizer button title: '&2❀ &lNAWOZENIE&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7Jesli jest nawoz - daje szanse na nawozenie rosliny!'
+  - '&2▪ &7Nawoz zwieksza tempo wzrostu rosliny!'
+  - '&2▪ &7Nawoz nie jest wymagany!'
+  - '&a✔ &7Pozostalo: %fertilizer%'
+  - '&2▪ &7Kliknij &f1 Maczke Kostna &7aby uzupelnic!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lWILGOTNOSC&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7Jesli jest nawoz - daje szanse na podlanie rosliny!'
+  - '&b▪ &7Woda zwieksza tempo wzrostu rosliny.'
+  - '&b▪ &7Woda nie jest wymagana!'
+  - '&a✔ &7Pozostalo: %humidity%'
+  - '&b▪ &7Kliknij &b1 Wiaderko wody &7aby uzupelnic!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Farm quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Zwieksza predkosc rolnictwa w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Zwieksza predkosc rolnictwa w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Zwieksza predkosc rolnictwa w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Zwieksza predkosc rolnictwa w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Zwieksza predkosc rolnictwa w quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Zwieksza promien rolniczy quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Zwieksza promien rolniczy quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Zwieksza promien rolniczy quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Zwieksza promien rolniczy quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Zwieksza promien rolniczy quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+# ╔════════════════╗
+# ║  STONE QUARRY  ║
+# ╚════════════════╝
+
+Stone quarry title: '&7■ &7&lSTONE QUARRY&r &7■'
+Stone quarry lore:
+  - '&8Niszczy 1 blok pod soba.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+Stone quarry shop lore:
+  - '&8Niszczy 1 blok pod soba.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lSTONE QUARRY&r &7■'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Stone quarry status activated: '&a&l[AKTYWNY]'
+Stone quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Stone quarry inventory title: '        &4■ &4&lSTONE QUARRY&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7Zwieksza szybkosc wydobywania bruku!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Stone quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7Zwieksza szybkosc wydobywania bruku!'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7Zwieksza predkosc rozbijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7Zwieksza predkosc rozbijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7Zwieksza predkosc rozbijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7Zwieksza predkosc rozbijania quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+# ╔═══════════════╗
+# ║  WOOL QUARRY  ║
+# ╚═══════════════╝
+
+Wool quarry title: '&d❦ &d&lWOOL QUARRY&r &d❦'
+Wool quarry lore:
+  - '&8Strzyzenie owiec dookola.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+Wool quarry shop lore:
+  - '&8Strzyzenie owiec dookola.'
+  - '&8Zuzywa paliwo podczas pracy.'
+  - '&e☻ &f&lULEPSZENIA:'
+  - '&a+ &a&lPREDKOSC'
+  - '&b+ &b&lZASIEG'
+  - '&6&l[&f&lKLIKNIJ ABY KUPIC&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lWOOL QUARRY&r &d❦'
+  - '&fWlasciciel: &a%player%'
+  - '&fStatus: &a%status%'
+Wool quarry status activated: '&a&l[AKTYWNY]'
+Wool quarry status disabled: '&c&l[NIEAKTYWNY]'
+
+Wool quarry inventory title: '        &4❦ &4&lWOOL QUARRY&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lPREDKOSC&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7Zwieksza predkosc strzyzenia owiec!'
+  - '&a▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&a▪ &7Ulepszenia wplywaja na zuzycie paliwa!'
+
+Wool quarry radius button title: '&b۞ &lZASIEG&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7Zwieksza zasieg strzyzenia owiec!'
+  - '&b▪ &7Mozesz zakupic ulepszenia klikajac na ikone!'
+  - '&b▪ &7Ulepszenia nie wplywaja na predkosc!'
+
+
+# You can add and remove values
+# 1,2,3,4,5 -> The keys are from the config, in the config there are 5 speeds and there are 5 values. Should be the same
+
+Wool quarry speed item 1 title: '%selected%&a&lNIMBLE&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Zwieksza predkosc golenia quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lIMPETUOUS&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Zwieksza predkosc golenia quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lINSTANTANEOUS&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Zwieksza predkosc golenia quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lULTRA-FAST&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Zwieksza predkosc golenia quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lFULMINANT&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Zwieksza predkosc golenia quarry.'
+  - '&7Jesli kupisz wyzsza predkosc, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lWIDE&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Zwieksza promien golenia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lSPACIOUS&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Zwieksza promien golenia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lLARGE-SCALE&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Zwieksza promien golenia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lIMMENSE&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Zwieksza promien golenia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lUNREACHABLE&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Zwieksza promien golenia quarry.'
+  - '&7Jesli kupisz wyzszy promien, nie bedziesz'
+  - '&7w stanie wybrac nizszej wersji.'
+  - '%price tag%'
+
+
+# ╔════════════════════╗
+# ║  HELP DESCRIPTION  ║
+# ╚════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY KOMENDY: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lQUARRY PLUGIN - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fOtrzymaj blok quarry :'
+  - '&a/quarry create <rodzaj> &for &a/quarry create <rodzaj> <gracz>'
+  - '&2➩ &fOtwiera sklep z quarry:'
+  - '&a/quarry shop'
+  - '&2➩ &fDodaj item do kantora:'
+  - '&a/quarry exchanger add <slot> <price>'
+  - '&2➩ &fUsun item z kantora:'
+  - '&a/quarry exchanger remove <slot>'
+  - '&fStrona: &21&f/&22'
+Help lines 2:
+  - '&fStrona: &22&f/&22'

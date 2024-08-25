@@ -1,0 +1,993 @@
+# ╔══════════════════════╗
+# ║  MENSAJES GENERALES  ║
+# ╚══════════════════════╝
+
+You dont have the permission: '&c¡No tienes los permisos para hacer eso!'
+You are not the player: '&c¡No eres un jugador!'
+Player isnt exists: '&c¡El jugador está desconectado!'
+Plugin reloaded: '&a¡Quarry recargado!'
+Havent enough money: '&c¡No tienes suficiente dinero para eso!'
+Buying coins message: '&fYou bought &e&l%price%&6&l$&r &fworth of chips!'
+Limit of placed quarries: '&c¡Has llegado al valor máximo de Canteras que puedes colocar!'
+
+Quarry created: '&a&l¡LA CANTERA SE CREÓ!'
+Quarry placed: '&e&l¡LA CANTERA SE HA COLOCADO!'
+Quarry removed: '&c&l¡LA CANTERA SE ELIMINÓ!'
+Quarry received: '&a&l¡HAS RECIBIDO UNA CANTERA!'
+Quarry gave: '&e&l¡LE HAS DADO UNA CANTERA A UN JUGADOR!'
+Quarry already opened: '&cLa cantera está abierta por otro jugador ahora mismo.'
+Quarry filling: '&a¡Has llenado la cantera!'
+
+Selected booster symbol: '&a✔ '
+Booster price line activated: '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e%price% &6⛃'
+Booster price line disabled: '&c&l[NO SE PUEDE COMPRAR]'
+
+
+# ╔═══════════════════════════╗
+# ║  TIENDA E INTERCAMBIADOR  ║
+# ╚═══════════════════════════╝
+
+Quarry shop title: '             &2⛃ &lTIENDA&r &2⛃'
+Quarry exchanger button title: '&2⛃ &a&lINTERCAMBIADOR&r &2⛃'
+Quarry exchanger button lore:
+  - '&7¡Cambia recursos por dinero!'
+Quarry exchanger title: '          &5❂ &lINTERCAMBIADOR&r &5❂'
+Quarry exchanger balance title: '&f&lDINERO&r &7- &e&l%balance%&r &6⛃'
+Quarry exchanger balance lore: []
+Quarry exchanger item added: '&f¡Nuevo objeto añadido al intercambiador!'
+Quarry exchanger item removed: '&f¡Objeto eliminado del intercambiador!'
+Quarry exchanger item lore:
+  - '&7Precio: &e%price% &6⛃'
+
+
+# ╔═════════════════════╗
+# ║  BOTONES GENERALES  ║
+# ╚═════════════════════╝
+
+Quarry fuel title: '&e☢ &lCOMBUSTIBLE &e☢'
+Quarry fuel lore:
+  - '&7¡El combustible es necesario para que una Cantera funcione!'
+  - '&a✔ &7Combustible: %fuel%'
+  - '&7Si el combustible se acaba - la máquina dejará de funcionar.'
+  - '&7¡Haz clic para recargar con &c4 de Carbón&7!'
+Quarry fuel placeholder: '|||||||||||||||||||||||||'
+Quarry fuel placeholder active color: '&a'
+Quarry fuel placeholder passive color: '&7'
+
+Quarry start title activated: '&c&lAPAGAR EL MOTOR'
+Quarry start title disabled: '&e&lENCENDER EL MOTOR'
+Quarry start lore:
+  - '&7¡Inicia o apaga el motor!'
+  - '&7Consume combustible cuando se enciende'
+
+Quarry storage gui title: '             &b&lALMACENAMIENTO'
+Quarry storage title: '&b&lALMACENAMIENTO'
+Quarry storage lore:
+  - '&7¡Aquí puedes obtener los recursos extraidos!'
+  - '&7Cuando intentes romper la Cantera con recursos'
+  - '&7sin recoger, ¡caerán al suelo!'
+
+Quarry owner title open: '&e&lABIERTO'
+Quarry owner title closed: '&c&lCERRADO'
+Quarry owner lore:
+  - '&7Dueño: &e%player%'
+  - '&7Haz clic para permitir a otros permitir o'
+  - '&7impedir el uso de la Cantera.'
+
+Quarry speed gui title: '             &a➠ &a&lVELOCIDAD&r &a➠'
+Quarry radius gui title: '            &b۞ &lRADIO&r &b۞'
+Quarry luck gui title: '              &6✪ &lSUERTE&r &6✪'
+Quarry bonuses gui title: '           &d⛃ &lBONOS&r &d⛃'
+Quarry silktouch gui title: '        &e✦ &lTOQUE DE SEDA&r &e✦'
+
+
+# ╔════════════════════════╗
+# ║  CANTERA DE MINERALES  ║
+# ╚════════════════════════╝
+
+Ore quarry title: '&c⛏ &c&lCANTERA DE MINERALES&r &c⛏'
+Ore quarry lore:
+  - '&8Pica minerales en cierto radio.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+  - '&6+ &6&lSUERTE'
+  - '&d+ &d&lBONO'
+  - '&e+ &e&lTOQUE DE SEDA'
+Ore quarry shop lore:
+  - '&8Pica minerales en cierto radio.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+  - '&6+ &6&lSUERTE'
+  - '&d+ &d&lBONO'
+  - '&e+ &e&lTOQUE DE SEDA'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Ore quarry holographic lore:
+  - '&c⛏ &c&lCANTERA DE MINERALES&r &c⛏'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Ore quarry status activated: '&a&l[ACTIVADO]'
+Ore quarry status disabled: '&c&l[DESACTIVADO]'
+
+Ore quarry inventory title: '&4⛏ &4&lCANTERA DE MINERALES&r &4⛏'
+
+Ore quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Ore quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de procesado de material!'
+  - '&a▪ &7¡Puedes comprar la mejora haciendo clic en el botón!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+Ore quarry radius button title: '&b۞ &lRADIO&r &b۞ &7- &6&l%value%'
+Ore quarry radius button lore:
+  - '&b▪ &7¡Aumenta el radio de procesado de material!'
+  - '&b▪ &7¡Puedes comprar la mejora haciendo clic en el botón!'
+  - '&b▪ &7¡Las mejoras no afectan a la velocidad de procesado!'
+
+Ore quarry luck button title: '&6✪ &lSUERTE&r &6✪ &7- &6&l%value%'
+Ore quarry luck button lore:
+  - '&6▪ &7¡Aumenta la suerte en el procesado de material!'
+  - '&6▪ &7¡Puedes comprar la mejora haciendo clic en el botón!'
+  - '&6▪ &7¡Las mejoras no afectan a la velocidad de procesado!'
+
+Ore quarry bonuses button title: '&d⛃ &lBONO&r &d⛃ &7- &6&l%value%'
+Ore quarry bonuses button lore:
+  - '&d▪ &7¡Permite obtener cristales y minerales durante el procesado!'
+  - '&d▪ &7¡Puedes comprar la mejora haciendo clic en el botón!'
+  - '&d▪ &7¡Las mejoras no afectan al consumo de combustible!'
+
+Ore quarry silktouch button title: '&e✦ &lTOQUE DE SEDA&r &e✦ &7- &6&l%value%'
+Ore quarry silktouch button lore:
+  - '&e▪ &7¡Permite obtener mineral sin procesar!'
+  - '&e▪ &7¡Puedes comprar la mejora haciendo clic en el botón!'
+  - '&e▪ &7¡Activar este modo desactiva los Bonos y la Suerte!'
+  - '&e¡Puede desactivarse!'
+Ore quarry silktouch button value activated: '&a&l[ACTIVADO]'
+Ore quarry silktouch button value disabled: '&c&l[DESACTIVADO]'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Ore quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Ore quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de minado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Ore quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de minado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕3&6]'
+Ore quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de minado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕4&d]'
+Ore quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de minado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕5&3]'
+Ore quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de minado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Ore quarry radius item 1 title: '%selected%&a&lAMPLIO&r &a[&f◯12&a]'
+Ore quarry radius item 1 lore:
+  - '&7Aumenta el radio de minado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry radius item 2 title: '%selected%&b&lESPACIOSO&r &b[&f◯16&b]'
+Ore quarry radius item 2 lore:
+  - '&7Aumenta el radio de minado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry radius item 3 title: '%selected%&6&lGRAN ESCALA&r &6[&f◯24&6]'
+Ore quarry radius item 3 lore:
+  - '&7Aumenta el radio de minado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry radius item 4 title: '%selected%&d&lINMENSO&r &d[&f◯32&d]'
+Ore quarry radius item 4 lore:
+  - '&7Aumenta el radio de minado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry radius item 5 title: '%selected%&c&lINALCANZABLE&r &c[&f◯48&c]'
+Ore quarry radius item 5 lore:
+  - '&7Aumenta el radio de minado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Ore quarry luck item 1 title: '%selected%&a&lAVENTAJADO&r &a[&f♠2&a]'
+Ore quarry luck item 1 lore:
+  - '&7Aumenta la suerte de minería de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry luck item 2 title: '%selected%&b&lDESEADO&r &b[&f♠3&b]'
+Ore quarry luck item 2 lore:
+  - '&7Aumenta la suerte de minería de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry luck item 3 title: '%selected%&6&lSUERTUDO&r &6[&f♠4&6]'
+Ore quarry luck item 3 lore:
+  - '&7Aumenta la suerte de minería de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry luck item 4 title: '%selected%&d&lPROLÍFICO&r &d[&f♠5&d]'
+Ore quarry luck item 4 lore:
+  - '&7Aumenta la suerte de minería de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Ore quarry luck item 5 title: '%selected%&c&lEXACTADO POR EL DESTINO&r &c[&f♠6&c]'
+Ore quarry luck item 5 lore:
+  - '&7Aumenta la suerte de minería de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Ore quarry bonuses item 1 title: '%selected%&a&lSÚPER'
+Ore quarry bonuses item 1 lore:
+  - '&7Obtén una probabilidad de obtener recursos adicionales'
+  - '&7durante el procesado de minerales.'
+  - '&7Si compras una mejora de bonus superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] ESMERALDA'
+  - '&6&l[&r&f✕2&6&l] PEPITA DE ORO'
+  - '%price tag%'
+Ore quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Ore quarry bonuses item 2 lore:
+  - '&7Obtén una probabilidad de obtener recursos adicionales'
+  - '&7durante el procesado de minerales.'
+  - '&7Si compras una mejora de bonus superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] ESMERALDA'
+  - '&6&l[&r&f✕3&6&l] PEPITA DE ORO'
+  - '%price tag%'
+Ore quarry bonuses item 3 title: '%selected%&6&lINCREÍBLE'
+Ore quarry bonuses item 3 lore:
+  - '&7Obtén una probabilidad de obtener recursos adicionales'
+  - '&7durante el procesado de minerales.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una bonus inferior.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] ESMERALDA'
+  - '&6&l[&r&f✕5&6&l] PEPITA DE ORO'
+  - '%price tag%'
+
+
+Ore quarry silktouch item 1 title: '&a&lTOQUE DE SEDA'
+Ore quarry silktouch item 1 lore:
+  - '&7Permite obtener el bloque de mineral en vez de'
+  - '&7su mineral procesado.'
+  - '&7¡Puedes activar y apagar el modo en el menú!'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25000 &6⛃'
+
+
+# ╔═════════════════════╗
+# ║  CANTERA DE MADERA  ║
+# ╚═════════════════════╝
+
+Wood quarry title: '&e♣ &e&lCANTERA DE MADERA&r &e♣'
+Wood quarry lore:
+  - '&8Corta los árboles en cierto radio.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+Wood quarry shop lore:
+  - '&8Corta los árboles en cierto radio.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Wood quarry holographic lore:
+  - '&e♣ &e&lCANTERA DE MADERA&r &e♣'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Wood quarry status activated: '&a&l[ACTIVADO]'
+Wood quarry status disabled: '&c&l[DESACTIVADO]'
+
+Wood quarry inventory title: '    &4♣ &4&lCANTERA DE MADERA&r &4♣'
+
+Wood quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Wood quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de extracción de madera!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+Wood quarry radius button title: '&b۞ &lRADIO&r &b۞ &7- &6&l%value%'
+Wood quarry radius button lore:
+  - '&b▪ &7¡Aumenta el radio de extracción de madera!'
+  - '&b▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&b▪ &7¡Esta mejora no afecta a la velocidad!'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Wood quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Wood quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de extracción de madera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Wood quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de extracción de madera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕3&6]'
+Wood quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de extracción de madera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕4&d]'
+Wood quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de extracción de madera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕5&3]'
+Wood quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de extracción de madera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Wood quarry radius item 1 title: '%selected%&a&lAMPLIO&r &a[&f◯12&a]'
+Wood quarry radius item 1 lore:
+  - '&7Aumenta el radio de corte de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry radius item 2 title: '%selected%&b&lESPACIOSO&r &b[&f◯16&b]'
+Wood quarry radius item 2 lore:
+  - '&7Aumenta el radio de corte de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry radius item 3 title: '%selected%&6&lGRAN ESCALA&r &6[&f◯24&6]'
+Wood quarry radius item 3 lore:
+  - '&7Aumenta el radio de corte de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry radius item 4 title: '%selected%&d&lINMENSO&r &d[&f◯32&d]'
+Wood quarry radius item 4 lore:
+  - '&7Aumenta el radio de corte de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wood quarry radius item 5 title: '%selected%&c&lINALCANZABLE&r &c[&f◯48&c]'
+Wood quarry radius item 5 lore:
+  - '&7Aumenta el radio de corte de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+# ╔══════════════════════╗
+# ║  CANTERA DE PESCADO  ║
+# ╚══════════════════════╝
+
+Fish quarry title: '&b☄ &b&lCANTERA DE PESCADO&r &b☄'
+Fish quarry lore:
+  - '&8Caza peces y objetos de las profundidades.'
+  - '&8Para que funcione, necesitas una piscina de'
+  - '&d3 por 3&8 y la Cantera de pesca en el medio.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lSUERTE'
+  - '&d+ &d&lBONUS'
+Fish quarry shop lore:
+  - '&8Caza peces y objetos de las profundidades.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lSUERTE'
+  - '&d+ &d&lBONUS'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Fish quarry holographic lore:
+  - '&b☄ &b&lCANTERA DE PESCADO&r &b☄'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Fish quarry status activated: '&a&l[ACTIVADO]'
+Fish quarry status disabled: '&c&l[DESACTIVADO]'
+
+Fish quarry inventory title: '  &4☄ &4&lCANTERA DE PESCADO&r &4☄'
+
+Fish quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Fish quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de pesca!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Esta mejora afecta al consumo de combustible!'
+
+Fish quarry luck button title: '&6✪ &lSUERTE&r &6✪ &7- &6&l%value%'
+Fish quarry luck button lore:
+  - '&6▪ &7¡Aumenta la probabilidad de pescar un objeto!'
+  - '&6▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&6▪ &7¡Esta mejora no afecta a la velocidad!'
+
+Fish quarry bonuses button title: '&d⛃ &lBONUSES&r &d⛃ &7- &6&l%value%'
+Fish quarry bonuses button lore:
+  - '&d▪ &7¡Permite pescar objetos raros de las profundidades!'
+  - '&d▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&d▪ &7¡Esta mejora no afecta al consumo de combustible!'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Fish quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.5&a]'
+Fish quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de pesca.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.8&b]'
+Fish quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de pesca.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕1.2&6]'
+Fish quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de pesca.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕1.5&d]'
+Fish quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de pesca.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕2&3]'
+Fish quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de pesca.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Fish quarry luck item 1 title: '%selected%&a&lADVANTAJADO&r &a[&f♠2&a]'
+Fish quarry luck item 1 lore:
+  - '&7Aumenta la suerte de pesca de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry luck item 2 title: '%selected%&b&lDESEADO&r &b[&f♠3&b]'
+Fish quarry luck item 2 lore:
+  - '&7Aumenta la suerte de pesca de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry luck item 3 title: '%selected%&6&lSUERTUDO&r &6[&f♠4&6]'
+Fish quarry luck item 3 lore:
+  - '&7Aumenta la suerte de pesca de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry luck item 4 title: '%selected%&d&lPROLÍFICO&r &d[&f♠5&d]'
+Fish quarry luck item 4 lore:
+  - '&7Aumenta la suerte de pesca de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Fish quarry luck item 5 title: '%selected%&c&lEXACTADO POR EL DESTINO&r &c[&f♠6&c]'
+Fish quarry luck item 5 lore:
+  - '&7Aumenta la suerte de pesca de la Cantera.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Fish quarry bonuses item 1 title: '%selected%&a&lSÚPER'
+Fish quarry bonuses item 1 lore:
+  - '&7Obtén una probabilidad de obtener ítems raros'
+  - '&7durante la pesca.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una bonus inferior.'
+  - '&b&l[&r&f✕0.5&b&l] DIAMANTE'
+  - '&a&l[&r&f✕0.8&a&l] ESMERALDA'
+  - '&6&l[&r&f✕2&6&l] PEPITA DE ORO'
+  - '%price tag%'
+Fish quarry bonuses item 2 title: '%selected%&b&lEXTRA'
+Fish quarry bonuses item 2 lore:
+  - '&7Obtén una probabilidad de obtener ítems raros'
+  - '&7durante la pesca.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una bonus inferior.'
+  - '&b&l[&r&f✕0.7&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1&a&l] ESMERALDA'
+  - '&6&l[&r&f✕3&6&l] PEPITA DE ORO'
+  - '%price tag%'
+Fish quarry bonuses item 3 title: '%selected%&6&lINCREÍBLE'
+Fish quarry bonuses item 3 lore:
+  - '&7Obtén una probabilidad de obtener ítems raros'
+  - '&7durante la pesca.'
+  - '&7Si compras una mejora de suerte superior,'
+  - '&7no podrás elegir una bonus inferior.'
+  - '&b&l[&r&f✕1&b&l] DIAMANTE'
+  - '&a&l[&r&f✕1.4&a&l] ESMERALDA'
+  - '&6&l[&r&f✕5&6&l] PEPITA DE ORO'
+  - '%price tag%'
+
+
+# ╔════════════════════════╗
+# ║  CANTERA DE ENTIDADES  ║
+# ╚════════════════════════╝
+
+Mob quarry title: '&4➹ &4&lCANTERA DE ENTIDADES&r &4➹'
+Mob quarry lore:
+  - '&8Mata criaturas y obtén despojos y experiencia.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lRADIO'
+  - '&d+ &d&lEXP'
+Mob quarry shop lore:
+  - '&8Mata criaturas y obtén despojos y experiencia.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lRADIO'
+  - '&d+ &d&lEXP'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Mob quarry holographic lore:
+  - '&4➹ &4&lCANTERA DE ENTIDADES&r &4➹'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Mob quarry status activated: '&a&l[ACTIVADO]'
+Mob quarry status disabled: '&c&l[DESACTIVADO]'
+
+Mob quarry inventory title: ' &4➹ &4&lCANTERA DE ENTIDADES&r &4➹'
+
+Mob quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Mob quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de matar criaturas!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+Mob quarry radius button title: '&b۞ &lRADIO&r &b۞ &7- &6&l%value%'
+Mob quarry radius button lore:
+  - '&b▪ &7¡Aumenta el radio de matar criaturas!'
+  - '&b▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&b▪ &7¡Esta mejora no afecta a la velocidad!'
+
+Mob quarry exp button title: '&d✦ &lEXP&r &d✦'
+Mob quarry exp button lore:
+  - '&d▪ &7¡Cuando matas criaturas, la experiencia se guarda!'
+  - '&d▪ &7Puedes recolectarla haciendo clic en el icono.'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Mob quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.8&a]'
+Mob quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de matar criaturas.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕1.2&b]'
+Mob quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de matar criaturas.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕1.7&6]'
+Mob quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de matar criaturas.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕2.3&d]'
+Mob quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de matar criaturas.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕3&3]'
+Mob quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de matar criaturas.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Mob quarry radius item 1 title: '%selected%&a&lAMPLIOE&r &a[&f◯4&a]'
+Mob quarry radius item 1 lore:
+  - '&7Aumenta el radio de matar criaturas.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry radius item 2 title: '%selected%&b&lESPACIOSO&r &b[&f◯6&b]'
+Mob quarry radius item 2 lore:
+  - '&7Aumenta el radio de matar criaturas.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry radius item 3 title: '%selected%&6&lGRAN ESCALA&r &6[&f◯8&6]'
+Mob quarry radius item 3 lore:
+  - '&7Aumenta el radio de matar criaturas.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry radius item 4 title: '%selected%&d&lINMENSO&r &d[&f◯10&d]'
+Mob quarry radius item 4 lore:
+  - '&7Aumenta el radio de matar criaturas.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Mob quarry radius item 5 title: '%selected%&c&lINALCANZABLE&r &c[&f◯12&c]'
+Mob quarry radius item 5 lore:
+  - '&7Aumenta el radio de matar criaturas.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+# ╔═══════════════════════╗
+# ║  CANTERA DE CULTIVOS  ║
+# ╚═══════════════════════╝
+
+Farm quarry title: '&a☀ &a&lCANTERA DE CULTIVOS&r &a☀'
+Farm quarry lore:
+  - '&8Cultiva y planta plantas.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lRADIO'
+  - '&2+ &2&lFERTILIZANTE'
+  - '&3+ &3&lHUMEDAD'
+Farm quarry shop lore:
+  - '&8Cultiva y planta plantas.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6+ &6&lRADIO'
+  - '&2+ &2&lFERTILIZER'
+  - '&3+ &3&lHUMEDAD'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Farm quarry holographic lore:
+  - '&a☀ &a&lCANTERA DE CULTIVOS&r &a☀'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Farm quarry status activated: '&a&l[ACTIVADO]'
+Farm quarry status disabled: '&c&l[DESACTIVADO]'
+
+Farm quarry inventory title: ' &4☀ &4&lCANTERA DE CULTIVOS&r &4☀'
+
+Farm quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Farm quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de cultivo y fertilización de cultivos!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+Farm quarry radius button title: '&b۞ &lRADIO&r &b۞ &7- &6&l%value%'
+Farm quarry radius button lore:
+  - '&b▪ &7¡Aumenta el radio de cultivo y fertilización de cultivos!'
+  - '&b▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&b▪ &7¡Esta mejora no afecta a la velocidad!'
+
+Farm quarry fertilizer button title: '&2❀ &lFERTILIZAR&r &2❀'
+Farm quarry fertilizer button lore:
+  - '&2▪ &7¡Si hay fertilizante - probabilidad de fertilizar la planta!'
+  - '&2▪ &7¡El fertilizante aumenta el crecimiento de la planta!'
+  - '&2▪ &7¡El fertilizante no es obligatorio!'
+  - '&a✔ &7Restante: %fertilizer%'
+  - '&2▪ &7Haz clic para recargar con &f1 Polvo de Hueso&7!'
+Farm quarry fertilizer placeholder: '|||||||||||||||||||||||||'
+Farm quarry fertilizer placeholder active color: '&a'
+Farm quarry fertilizer placeholder passive color: '&7'
+
+Farm quarry humidity button title: '&b☁ &lHUMEDAD&r &b☁'
+Farm quarry humidity button lore:
+  - '&b▪ &7¡Si hay fertilizante - probabilidad de regar la planta!'
+  - '&b▪ &7¡El riego aumenta el crecimiento de la planta!'
+  - '&b▪ &7¡El agua no es obligatoria!'
+  - '&a✔ &7Restante: %humidity%'
+  - '&b▪ &7Haz clic para recargar con &b1 Cubo de agua&7!'
+Farm quarry humidity placeholder: '|||||||||||||||||||||||||'
+Farm quarry humidity placeholder active color: '&a'
+Farm quarry humidity placeholder passive color: '&7'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Farm quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕1.5&a]'
+Farm quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de cultivo de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕2&b]'
+Farm quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de cultivo de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕2.8&6]'
+Farm quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de cultivo de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕3.4&d]'
+Farm quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de cultivo de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕4&3]'
+Farm quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de cultivo de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Farm quarry radius item 1 title: '%selected%&a&lAMPLIOE&r &a[&f◯8&a]'
+Farm quarry radius item 1 lore:
+  - '&7Aumenta el radio de cultivo de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry radius item 2 title: '%selected%&b&lESPACIOSO&r &b[&f◯12&b]'
+Farm quarry radius item 2 lore:
+  - '&7Aumenta el radio de cultivo de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry radius item 3 title: '%selected%&6&lGRAN ESCALA&r &6[&f◯16&6]'
+Farm quarry radius item 3 lore:
+  - '&7Aumenta el radio de cultivo de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry radius item 4 title: '%selected%&d&lINMENSO&r &d[&f◯20&d]'
+Farm quarry radius item 4 lore:
+  - '&7Aumenta el radio de cultivo de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Farm quarry radius item 5 title: '%selected%&c&lINALCANZABLE&r &c[&f◯24&c]'
+Farm quarry radius item 5 lore:
+  - '&7Aumenta el radio de cultivo de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+# ╔═════════════════════╗
+# ║  CANTERA DE PIEDRA  ║
+# ╚═════════════════════╝
+
+Stone quarry title: '&7■ &7&lCANTERA DE PIEDRA&r &7■'
+Stone quarry lore:
+  - '&8Rompe el bloque que está bajo la Cantera.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+Stone quarry shop lore:
+  - '&8Rompe el bloque que está bajo la Cantera.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Stone quarry holographic lore:
+  - '&7■ &7&lCANTERA DE PIEDRA&r &7■'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Stone quarry status activated: '&a&l[ACTIVADO]'
+Stone quarry status disabled: '&c&l[DESACTIVADO]'
+
+Stone quarry inventory title: '    &4■ &4&lCANTERA DE PIEDRA&r &4■'
+
+Stone quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Stone quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de minería de roca!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Stone quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.5&a]'
+Stone quarry speed item 1 lore:
+  - '&7¡Aumenta la velocidad de picado de roca!'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Stone quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.8&b]'
+Stone quarry speed item 2 lore:
+  - '&7¡Aumenta la velocidad de picado de roca!'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Stone quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕1&6]'
+Stone quarry speed item 3 lore:
+  - '&7¡Aumenta la velocidad de picado de roca!'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Stone quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕1.5&d]'
+Stone quarry speed item 4 lore:
+  - '&7¡Aumenta la velocidad de picado de roca!'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Stone quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕2&3]'
+Stone quarry speed item 5 lore:
+  - '&7¡Aumenta la velocidad de picado de roca!'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+# ╔═══════════════════╗
+# ║  CANTERA DE LANA  ║
+# ╚═══════════════════╝
+
+Wool quarry title: '&d❦ &d&lCANTERA DE LANA&r &d❦'
+Wool quarry lore:
+  - '&8Esquila las ovejas a su alrededor.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+Wool quarry shop lore:
+  - '&8Esquila las ovejas a su alrededor.'
+  - '&8Consume combustible mientras está funcionando.'
+  - '&e☻ &f&lMEJORAS:'
+  - '&a+ &a&lVELOCIDAD'
+  - '&b+ &b&lRADIO'
+  - '&6&l[&f&lCLIC PARA COMPRAR&6&l]&r &e25.000 &6⛃'
+
+Wool quarry holographic lore:
+  - '&d❦ &d&lCANTERA DE LANA&r &d❦'
+  - '&fDueño: &a%player%'
+  - '&fEstado: &a%status%'
+Wool quarry status activated: '&a&l[ACTIVADO]'
+Wool quarry status disabled: '&c&l[DESACTIVADO]'
+
+Wool quarry inventory title: '     &4❦ &4&lCANTERA DE LANA&r &4❦'
+
+Wool quarry speed button title: '&a➠ &a&lVELOCIDAD&r &a➠ &7- &6&l%value%'
+Wool quarry speed button lore:
+  - '&a▪ &7¡Aumenta la velocidad de esquilado!'
+  - '&a▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&a▪ &7¡Las mejoras afectan al consumo de combustible!'
+
+Wool quarry radius button title: '&b۞ &lRADIO&r &b۞ &7- &6&l%value%'
+Wool quarry radius button lore:
+  - '&b▪ &7¡Aumenta el radio de esquilado!'
+  - '&b▪ &7¡Puedes comprar mejoras clicando en el icono!'
+  - '&b▪ &7¡Esta mejora no afecta a la velocidad!'
+
+
+# Puedes añadir y eliminar valores
+# 1,2,3,4,5 -> Los números son de la configuración. Si en la configuración hay 5 velocidades, deben haber 5 valores. Tiene que ser igual.
+
+Wool quarry speed item 1 title: '%selected%&a&lÁGIL&r &a[&f✕0.01&a]'
+Wool quarry speed item 1 lore:
+  - '&7Aumenta la velocidad de esquilado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry speed item 2 title: '%selected%&b&lIMPETUOSO&r &b[&f✕0.08&b]'
+Wool quarry speed item 2 lore:
+  - '&7Aumenta la velocidad de esquilado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry speed item 3 title: '%selected%&6&lINSTANTÁNEO&r &6[&f✕0.2&6]'
+Wool quarry speed item 3 lore:
+  - '&7Aumenta la velocidad de esquilado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry speed item 4 title: '%selected%&d&lULTRA-RÁPIDO&r &d[&f✕0.6&d]'
+Wool quarry speed item 4 lore:
+  - '&7Aumenta la velocidad de esquilado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry speed item 5 title: '%selected%&3&lFULMINANTE&r &3[&f✕1&3]'
+Wool quarry speed item 5 lore:
+  - '&7Aumenta la velocidad de esquilado de la Cantera.'
+  - '&7Si compras una mejora de velocidad superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+Wool quarry radius item 1 title: '%selected%&a&lAMPLIOE&r &a[&f◯6&a]'
+Wool quarry radius item 1 lore:
+  - '&7Aumenta el radio de esquilado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry radius item 2 title: '%selected%&b&lESPACIOSO&r &b[&f◯8&b]'
+Wool quarry radius item 2 lore:
+  - '&7Aumenta el radio de esquilado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry radius item 3 title: '%selected%&6&lGRAN ESCALA&r &6[&f◯10&6]'
+Wool quarry radius item 3 lore:
+  - '&7Aumenta el radio de esquilado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry radius item 4 title: '%selected%&d&lINMENSO&r &d[&f◯12&d]'
+Wool quarry radius item 4 lore:
+  - '&7Aumenta el radio de esquilado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+Wool quarry radius item 5 title: '%selected%&c&lINALCANZABLE&r &c[&f◯14&c]'
+Wool quarry radius item 5 lore:
+  - '&7Aumenta el radio de esquilado de la Cantera.'
+  - '&7Si compras una mejora de radio superior,'
+  - '&7no podrás elegir una mejora inferior.'
+  - '%price tag%'
+
+
+# ╔════════════════════════════════════════╗
+# ║  DESCRIPCIÓN DE LOS COMANDOS DE AYUDA  ║
+# ╚════════════════════════════════════════╝
+
+Wrong command: '&2&l[&a&lQUARRY&2&l] &f&lCOMANDOS DEL QUARRY: &r&a/quarry help'
+Help title: '&2&l[&a&lQUARRY&2&l] &f&lPLUGIN: QUARRY - &2&l%version%'
+Help lines 1:
+  - '&2➩ &fObtén un bloque de Cantera:'
+  - '&a/quarry create <tipo> &fo &a/quarry create <tipo> <jugador>'
+  - '&2➩ &fAbre la tienda de Canteras:'
+  - '&a/quarry shop'
+  - '&2➩ &fAñade un objeto al Intercambiador:'
+  - '&a/quarry exchanger add <ranura> <precio>'
+  - '&2➩ &fElimina un objeto del Intercambiador:'
+  - '&a/quarry exchanger remove <ranura>'
+  - '&fPág.: &21&f/&22'
+Help lines 2:
+  - '&fPág.: &22&f/&22'
+
+#A1bwM1UMVWSkJ0Z5EENo5ESRhlUwUERNRzYU9UNjRlTwUkMZJWUVlUM0UWN0YkSTRjdYRXO
